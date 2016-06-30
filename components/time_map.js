@@ -62,7 +62,7 @@ markerCoord();
 google.maps.event.addListener(marker,'dragend',function(){
 markerCoord();
 if(document.getElementById('info').style.opacity == 0){
-               TweenMax.to(document.getElementById('info'),0.5,{
+               TweenMax.to(document.getElementById('info'),1,{
                opacity:1,
                ease:Power0.easeNone
 
@@ -22212,6 +22212,7 @@ function getTime(lat,lng){
 			}
 			catch(err){
 				document.getElementById('time').innerHTML = 'The Dot Isn\'t Amphibious.'
+                    document.getElementById('small-town') = 'Head for Land.'
 				document.getElementById('time-zone').innerHTML = '';
 				document.getElementById('time-offset').innerHTML = '';
 				
@@ -22276,7 +22277,7 @@ function getTime(lat,lng){
 
 			}
 
-			document.getElementById('small-town').innerHTML ='SPECIFIC LOCATION: '+ placename+', '+state+', '+country;
+			document.getElementById('small-town').innerHTML ='CLOSEST PLACE: '+ placename+', '+state+', '+country;
 
 		}
 	})
