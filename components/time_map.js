@@ -62,7 +62,7 @@ markerCoord();
 google.maps.event.addListener(marker,'dragend',function(){
 markerCoord();
 if(document.getElementById('info').style.opacity == 0){
-               TweenMax.to(document.getElementById('info'),1.5,{
+               TweenMax.to(document.getElementById('info'),0.5,{
                opacity:1,
                ease:Power0.easeNone
 
