@@ -13,7 +13,7 @@ var time_loop;
 function initMap() {
 
 	$.ajax({
-		url:'http://ip-api.com/json/'+ip,
+		url:'https://ip-api.com/json/'+ip,
 		type:'GET',
 		async: false,
 		responseType:'JSON',
@@ -22200,7 +22200,7 @@ function getTime(lat,lng){
 	var username = usernames[Math.floor(Math.random() * (usernames.length))];
 	console.log(username);
 	$.ajax({
-		url:'http://api.geonames.org/timezoneJSON?lat='+lat+'&lng='+lng+'&username='+username,
+		url:'https://api.geonames.org/timezoneJSON?lat='+lat+'&lng='+lng+'&username='+username,
 		type:'GET',
 		responseType:'JSON',
 		success:function(data){
@@ -22260,7 +22260,7 @@ function getTime(lat,lng){
 		}
 	});	
 	$.ajax({
-		url:'http://api.geonames.org/findNearbyPlaceNameJSON?lat='+lat+'&lng='+lng+'&username=iansee',
+		url:'https://api.geonames.org/findNearbyPlaceNameJSON?lat='+lat+'&lng='+lng+'&username=iansee',
 		type:'GET',
 		responseType:'JSON',
 		success:function (data) {
