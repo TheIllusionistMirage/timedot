@@ -67,6 +67,7 @@ body{
 #small-town{
 	font-size: 1.5rem;
     margin-top: -39px;
+    padding:0px;
     color:#D7D9D9;
 }
 #toggle{
@@ -74,13 +75,14 @@ body{
     position: fixed;
     top: 6%;
     right: 6.5%;
+    margin-top: 10px;
 }
 #toggle-label{
 	font-size: 2rem;
 }
 @media screen and (min-width:768px){
 	#react-container{
-		height: 14%;
+		height: 130px;
 	}
 	#time{
 		display: inline;
@@ -96,7 +98,7 @@ body{
 		top:75px;
 	}
 	#small-town{
-		font-size: 2.5rem;
+		font-size: 2rem;
 		margin-top: -41px;
 	}
 	#toggle{
