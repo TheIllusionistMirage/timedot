@@ -25,6 +25,9 @@ body{
 	overflow: hidden;
 	opacity: 1;
 }
+#dn{
+	margin-right: 5px;
+}
 #time{
 	display: inline;
     font-size: 8.5rem;
@@ -78,6 +81,7 @@ body{
     top: 6%;
     right: 6.5%;
     margin-top: 10px;
+    margin-left: 5px;
 }
 #toggle-label{
 	font-size: 2rem;
