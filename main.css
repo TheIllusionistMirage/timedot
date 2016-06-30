@@ -23,6 +23,7 @@ body{
 }
 #info{
 	overflow: hidden;
+	opacity: 1;
 }
 #time{
 	display: inline;
