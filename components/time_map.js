@@ -75,6 +75,24 @@ function initMap() {
 markerCoord();
 google.maps.event.addListener(marker,'dragend',function(){
 markerCoord();
+TweenMax.to(document.getElementById('time'),1.5,{
+     opacity:1,
+     ease: Power1.easeIn
+
+});
+TweenMax.to(document.getElementById('time-zone'),1.5,{
+     opacity:1,
+     ease: Power1.easeIn
+
+});
+TweenMax.to(document.getElementById('time-offset'),1.5,{
+     opacity:1,
+     ease: Power1.easeIn
+});
+TweenMax.to(document.getElementById('small-town'),1.5,{
+     opacity:1,
+     ease: Power1.easeIn
+});
 var center = new google.maps.LatLng(marker_lat,marker_lng);
 map.panTo(center);
 
