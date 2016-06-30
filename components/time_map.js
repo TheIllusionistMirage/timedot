@@ -22200,7 +22200,7 @@ function getTime(lat,lng){
 	var username = usernames[Math.floor(Math.random() * (usernames.length))];
 	console.log(username);
 	$.ajax({
-		url:'https://api.geonames.org/timezoneJSON?lat='+lat+'&lng='+lng+'&username='+username,
+		url:'http://api.geonames.org/timezoneJSON?lat='+lat+'&lng='+lng+'&username='+username,
 		type:'GET',
 		responseType:'JSON',
 		success:function(data){
@@ -22260,7 +22260,7 @@ function getTime(lat,lng){
 		}
 	});	
 	$.ajax({
-		url:'https://api.geonames.org/findNearbyPlaceNameJSON?lat='+lat+'&lng='+lng+'&username=iansee',
+		url:'http://api.geonames.org/findNearbyPlaceNameJSON?lat='+lat+'&lng='+lng+'&username=iansee',
 		type:'GET',
 		responseType:'JSON',
 		success:function (data) {
