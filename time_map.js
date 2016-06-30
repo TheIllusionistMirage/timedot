@@ -13,7 +13,7 @@ var time_loop;
 function initMap() {
 
 	$.ajax({
-		url:'https://ip-api.com/json/'+ip,
+		url:'http://ip-api.com/json/'+ip,
 		type:'GET',
 		async: false,
 		responseType:'JSON',
