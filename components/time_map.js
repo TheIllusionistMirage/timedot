@@ -61,24 +61,11 @@ function initMap() {
 markerCoord();
 google.maps.event.addListener(marker,'dragend',function(){
 markerCoord();
-if(document.getElementById('time').style.opacity == 0){
-               TweenMax.to(document.getElementById('time'),1.5,{
-               opacity:0,
-               ease: SlowMo.ease.config(0.6, 2, true)
+if(document.getElementById('info').style.opacity == 0){
+               TweenMax.to(document.getElementById('info'),1.5,{
+               opacity:1,
+               ease:Power0.easeNone
 
-          });
-          TweenMax.to(document.getElementById('time-zone'),1.5,{
-               opacity:0,
-               ease: SlowMo.ease.config(0.6, 2, true)
-
-          });
-          TweenMax.to(document.getElementById('time-offset'),1.5,{
-               opacity:0,
-               ease: SlowMo.ease.config(0.6, 2, true)
-          });
-          TweenMax.to(document.getElementById('small-town'),1.5,{
-               opacity:0,
-               ease: SlowMo.ease.config(0.6, 2, true)
           });
 }
 var center = new google.maps.LatLng(marker_lat,marker_lng);
