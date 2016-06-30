@@ -22212,11 +22212,7 @@ function getTime(lat,lng){
 			}
 			catch(err){
 				document.getElementById('time').innerHTML = 'The Dot Isn\'t Amphibious.';
-                    document.getElementById('time').style.fontSize = '2.5rem';
-                    document.getElementById('small-town').innerHTML = 'Head for Land.';
-				document.getElementById('time-zone').style.display = 'none';
-				document.getElementById('time-offset').style.display = 'none';
-                    document.getElementById('date').style.display = 'none';
+                    document.getElementById('info').style.opacity = '0';
 				
 
 			}
