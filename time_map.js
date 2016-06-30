@@ -8,7 +8,7 @@ var ip;
 function initMap() {
 
 	$.ajax({
-		url:'http://ip-api.com/json/'+ip,
+		url:'https://ip-api.com/json/'+ip,
 		type:'GET',
 		async: false,
 		responseType:'JSON',
@@ -42,7 +42,7 @@ function initMap() {
 }
 function getTime(lat,lng){
 	$.ajax({
-		url:'http://api.geonames.org/timezone?lat='+lat+'&lng='+lng+'&username=iansee'
+		url:'https://api.geonames.org/timezone?lat='+lat+'&lng='+lng+'&username=iansee'
 	})
 
 
