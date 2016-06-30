@@ -73,7 +73,7 @@ function initMap() {
 	
 }
 markerCoord();
-google.maps.event.addListener(marker,'dragend',function(){markerCoord()});
+google.maps.event.addListener(marker,'drag',function(){markerCoord()});
 timeRefresh();
 }
 function timeRefresh(){
