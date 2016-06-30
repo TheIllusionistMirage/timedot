@@ -22211,7 +22211,10 @@ function getTime(lat,lng){
 				var time  = date.substr(date.indexOf(' ')+1);
 			}
 			catch(err){
-                    document.getElementById('info').style.opacity = 0;
+                    TweenMax.to($('#info'),1,{
+                         opacity:0,
+                         ease:Power0.easeNone
+                    });
 				
 
 			}
