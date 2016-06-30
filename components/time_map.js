@@ -75,7 +75,7 @@ function initMap() {
 markerCoord();
 google.maps.event.addListener(marker,'dragend',function(){markerCoord()});
 timeRefresh();
-//map.setCenter(new google.maps.LatLng(marker_lat,marker_lng));
+map.setCenter(new google.maps.LatLng(marker_lat,marker_lng));
 
 }
 function timeRefresh(){
