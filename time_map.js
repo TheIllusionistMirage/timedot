@@ -74,9 +74,13 @@ function initMap() {
 }
 markerCoord();
 google.maps.event.addListener(marker,'dragend',function(){markerCoord()});
-time.abort();
+
 timeRefresh();
 }
+google.maps.event.addListener(marker,'drag',function(){markerCoord()});
+time.abort();
+}
+
 function timeRefresh(){
 	time_loop = setInterval(function(){getTime(marker_lat,marker_lng)},5000);
 }
