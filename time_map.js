@@ -50,7 +50,7 @@ function initMap() {
 		marker_lat = marker.getPosition().lat();
 		marker_lng = marker.getPosition().lng();
 		getTime(marker_lat,marker_lng);
-		TweenMax.to(document.getElementById('time'),0.5,{
+		/*TweenMax.to(document.getElementById('time'),0.5,{
 			opacity:0,
 			ease: Power4.easeIn
 
@@ -67,7 +67,7 @@ function initMap() {
 		TweenMax.to(document.getElementById('small-town'),0.5,{
 			opacity:0,
 			ease: Power4.easeIn
-		});
+		});*/
 
 		marker_latlng = {marker_lat,marker_lng};
      }
