@@ -28,6 +28,9 @@ body{
 #dn{
 	margin-right: 5px !important;
 }
+#dot-in-water{
+	opacity: 0;
+}
 #time{
 	display: inline;
     font-size: 8.5rem;
