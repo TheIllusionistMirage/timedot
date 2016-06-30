@@ -52,21 +52,21 @@ function initMap() {
 		getTime(marker_lat,marker_lng);
 		TweenMax.to(document.getElementById('time'),0.5,{
 			opacity:0,
-			ease: SlowMo.ease.config(0.6, 2, true)
+			ease: Power4.easeIn
 
 		});
 		TweenMax.to(document.getElementById('time-zone'),0.5,{
 			opacity:0,
-			ease: SlowMo.ease.config(0.6, 2, true)
+			ease: Power4.easeIn
 
 		});
 		TweenMax.to(document.getElementById('time-offset'),0.5,{
 			opacity:0,
-			ease: SlowMo.ease.config(0.6, 2, true)
+			ease: Power4.easeIn
 		});
 		TweenMax.to(document.getElementById('small-town'),0.5,{
 			opacity:0,
-			ease: SlowMo.ease.config(0.6, 2, true)
+			ease: Power4.easeIn
 		});
 		marker_latlng = {marker_lat,marker_lng};
 
@@ -22260,7 +22260,7 @@ function getTime(lat,lng){
 		}
 	});	
 	$.ajax({
-		url:'http://api.geonames.org/findNearbyPlaceNameJSON?lat='+lat+'&lng='+lng+'&username=iansee',
+		url:'http://api.geonames.org/findNearbyPlaceNameJSON?lat='+lat+'&lng='+lng+'&username='+username,
 		type:'GET',
 		responseType:'JSON',
 		success:function (data) {
@@ -22284,8 +22284,8 @@ function getTime(lat,lng){
 
 console.log(window.innerWidth);
 $(window).resize(function(){
-	TweenLite.set("#react-container", {clearProps:"all"});
-	TweenLite.set("#expand", {clearProps:"all"});
+	TweenMax.set("#react-container", {clearProps:"all"});
+	TweenMax.set("#expand", {clearProps:"all"});
 });
 
 
