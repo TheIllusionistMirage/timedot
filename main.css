@@ -26,7 +26,7 @@ body{
 	opacity: 1;
 }
 #dn{
-	margin-right: 5px;
+	margin-right: 5px !important;
 }
 #time{
 	display: inline;
