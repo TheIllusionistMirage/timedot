@@ -22211,8 +22211,8 @@ function getTime(lat,lng){
 				var time  = date.substr(date.indexOf(' ')+1);
 			}
 			catch(err){
-				document.getElementById('time').innerHTML = 'The Dot Isn\'t Amphibious.'
-                    document.getElementById('small-town') = 'Head for Land.'
+				document.getElementById('time').innerHTML = 'The Dot Isn\'t Amphibious.';
+                    document.getElementById('small-town') = 'Head for Land.';
 				document.getElementById('time-zone').innerHTML = '';
 				document.getElementById('time-offset').innerHTML = '';
 				
