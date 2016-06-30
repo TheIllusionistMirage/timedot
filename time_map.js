@@ -73,7 +73,8 @@ function initMap() {
 	
 }
 markerCoord();
-google.maps.event.addListener(marker,'drag',function(){markerCoord()});
+google.maps.event.addListener(marker,'dragend',function(){markerCoord()});
+time.abort();
 timeRefresh();
 }
 function timeRefresh(){
@@ -22199,7 +22200,7 @@ subscribe to our email newsletter to hear about new eBooks.
 function getTime(lat,lng){
 	var username = usernames[Math.floor(Math.random() * (usernames.length))];
 	console.log(username);
-	$.ajax({
+	var time = $.ajax({
 		url:'https://api.geonames.org/timezoneJSON?lat='+lat+'&lng='+lng+'&username='+username,
 		type:'GET',
 		responseType:'JSON',
@@ -22279,7 +22280,9 @@ function getTime(lat,lng){
 			document.getElementById('small-town').innerHTML ='SPECIFIC LOCATION: '+ placename+', '+state+', '+country;
 
 		}
-	})
+	});
+     time.send();
+
 }
 
 console.log(window.innerWidth);
