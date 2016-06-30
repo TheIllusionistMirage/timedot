@@ -10,7 +10,7 @@ var APP = React.createClass({
 				<Time></Time>
 				<Header></Header>
 				<Toggle></Toggle>
-				
+				<Water></Water>
 			</div>
 		)
 	}
