@@ -22215,6 +22215,16 @@ function getTime(lat,lng){
                          opacity:0,
                          ease:Power0.easeNone
                     });
+                    TweenMax.to($('#amphibious'),1,{
+                         opacity:1,
+                         ease:Power0.easeNone
+                    });
+                    TweenMax.to($('#land'),1,{
+                         opacity:1,
+                         ease:Power0.easeNone
+                    });
+
+
 				
 
 			}
