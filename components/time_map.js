@@ -22211,8 +22211,7 @@ function getTime(lat,lng){
 				var time  = date.substr(date.indexOf(' ')+1);
 			}
 			catch(err){
-				document.getElementById('time').innerHTML = 'The Dot Isn\'t Amphibious.';
-                    document.getElementById('info').style.opacity = '0';
+                    document.getElementById('info').style.opacity = 0;
 				
 
 			}
