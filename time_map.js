@@ -22200,6 +22200,7 @@ function getTime(lat,lng){
 	var username = usernames[Math.floor(Math.random() * (usernames.length))];
 	console.log(username);
 	$.ajax({
+<<<<<<< HEAD
 		url:'https://api.geonames.org/timezoneJSON?lat='+lat+'&lng='+lng+'&username='+username,
 		type:'GET',
 		responseType:'JSON',
@@ -22215,6 +22216,10 @@ function getTime(lat,lng){
 				document.getElementById('time-zone').innerHTML = '';
 				document.getElementById('time-offset').innerHTML = '';
 				
+=======
+		url:'https://api.geonames.org/timezone?lat='+lat+'&lng='+lng+'&username=iansee'
+	})
+>>>>>>> origin/gh-pages
 
 			}
 			var year = date.substr(0,4);
