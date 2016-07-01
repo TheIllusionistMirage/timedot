@@ -22215,15 +22215,16 @@ function getTime(lat,lng){
                          opacity:0,
                          ease:Power0.easeNone
                     });
-                    TweenMax.to($('#dot-in-water'),1,{
+                    TweenMax.to($('#dot-in-water'),0.5,{
                          opacity:1,
+                         offset:1,
                          ease:Power0.easeNone
                     });
-
-
-				
-
 			}
+               TweenMax.to($('#dot-in-water'),0.5,{
+                         opacity:0,
+                         ease:Power0.easeNone
+               });
 			var year = date.substr(0,4);
 			var monthdate = date.substr(5,6);
 			var month = monthdate.substr(0,2);
