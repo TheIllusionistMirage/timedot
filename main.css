@@ -31,7 +31,12 @@ body{
 #dot-in-water{
 	opacity: 0;
 	display: block;
-	
+}
+#amphibious{
+	margin-top: -114px;
+}
+#land{
+	margin-top:-72px;
 }
 #time{
 	display: inline;
