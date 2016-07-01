@@ -22206,6 +22206,10 @@ function getTime(lat,lng){
 		success:function(data){
 			console.log(data);
 			var date = data.time;
+               TweenMax.to($('#dot-in-water'),0.5,{
+                    opacity:0,
+                    ease:Power0.easeNone
+               });
 			
 			try{
 				var time  = date.substr(date.indexOf(' ')+1);
@@ -22220,7 +22224,7 @@ function getTime(lat,lng){
                          ease:Power0.easeNone
                     });
 			}
-               
+
 			var year = date.substr(0,4);
 			var monthdate = date.substr(5,6);
 			var month = monthdate.substr(0,2);
