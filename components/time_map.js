@@ -22213,18 +22213,14 @@ function getTime(lat,lng){
 			catch(err){
                     TweenMax.to($('#info'),1,{
                          opacity:0,
-                         ease:Power0.easeNone
+                         ease:Power4.easeOut
                     });
                     TweenMax.to($('#dot-in-water'),0.5,{
                          opacity:1,
-                         offset:1,
                          ease:Power0.easeNone
                     });
 			}
-               TweenMax.to($('#dot-in-water'),0.5,{
-                         opacity:0,
-                         ease:Power0.easeNone
-               });
+               TweenMax.set("#react-container", {clearProps:"all"});
 			var year = date.substr(0,4);
 			var monthdate = date.substr(5,6);
 			var month = monthdate.substr(0,2);
