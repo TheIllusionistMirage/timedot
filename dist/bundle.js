@@ -20434,30 +20434,12 @@
 		render: function render() {
 			return React.createElement(
 				'div',
-				null,
-				React.createElement(
-					'div',
-					{ id: 'info', className: 'row' },
-					React.createElement('h1', { className: 'col-xs-12 text-right pull-right', id: 'date' }),
-					React.createElement('h1', { className: 'col-xs-12 text-center', id: 'time' }),
-					React.createElement('h1', { className: 'col-xs-12 text-center', id: 'time-zone' }),
-					React.createElement('h1', { className: 'col-xs-12 text-center', id: 'time-offset' }),
-					React.createElement('h1', { className: 'col-xs-12 text-center', id: 'small-town' })
-				),
-				React.createElement(
-					'div',
-					{ id: 'dot-in-water' },
-					React.createElement(
-						'h1',
-						{ className: 'col-xs-12 text-center', id: 'amphibious' },
-						'THE DOT ISN\'T AMPHIBIOUS.'
-					),
-					React.createElement(
-						'h1',
-						{ className: 'col-xs-12 text-center', id: 'land' },
-						'HEAD FOR LAND.'
-					)
-				)
+				{ id: 'info', className: 'row' },
+				React.createElement('h1', { className: 'col-xs-12 text-right pull-right', id: 'date' }),
+				React.createElement('h1', { className: 'col-xs-12 text-center', id: 'time' }),
+				React.createElement('h1', { className: 'col-xs-12 text-center', id: 'time-zone' }),
+				React.createElement('h1', { className: 'col-xs-12 text-center', id: 'time-offset' }),
+				React.createElement('h1', { className: 'col-xs-12 text-center', id: 'small-town' })
 			);
 		}
 	});

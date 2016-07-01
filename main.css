@@ -30,7 +30,8 @@ body{
 }
 #dot-in-water{
 	opacity: 0;
-	display: none;
+	display: block;
+	
 }
 #time{
 	display: inline;
