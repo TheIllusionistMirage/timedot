@@ -51,6 +51,7 @@
 	var Header = __webpack_require__(168);
 	var Time = __webpack_require__(169);
 	var Toggle = __webpack_require__(170);
+	var Water = __webpack_require__(171);
 	var APP = React.createClass({
 		displayName: 'APP',
 		render: function render() {
@@ -20487,6 +20488,36 @@
 		}
 	});
 	module.exports = Toggle;
+
+/***/ },
+/* 171 */
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+
+	var React = __webpack_require__(1);
+
+	var Water = React.createClass({
+		displayName: "Water",
+		render: function render() {
+			return React.createElement(
+				"div",
+				{ id: "dot-in-water" },
+				React.createElement(
+					"h1",
+					{ className: "col-xs-12 text-center", id: "amphibious" },
+					"THE DOT ISN'T AMPHIBIOUS."
+				),
+				React.createElement(
+					"h1",
+					{ className: "col-xs-12 text-center", id: "land" },
+					"HEAD FOR LAND."
+				)
+			);
+		}
+	});
+
+	module.exports = Water;
 
 /***/ }
 /******/ ]);
