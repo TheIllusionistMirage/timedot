@@ -22220,7 +22220,7 @@ function getTime(lat,lng){
                          ease:Power0.easeNone
                     });
 			}
-               TweenMax.set("#react-container", {clearProps:"all"});
+               
 			var year = date.substr(0,4);
 			var monthdate = date.substr(5,6);
 			var month = monthdate.substr(0,2);
