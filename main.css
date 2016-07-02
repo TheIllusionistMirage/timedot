@@ -178,10 +178,10 @@ body{
 		font-size: 1.5rem;
 	}
 	#fullscreen-toggle{
-	position: fixed;
-    top: 24%;
-    left: 25px;
-    transform: scale(1.4);
+		position: fixed;
+	    top: 175px;
+	    left: 6px;
+	    transform: scale(1.4);
 	}	
 
 }
