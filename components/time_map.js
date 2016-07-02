@@ -22268,7 +22268,7 @@ function getTime(lat,lng){
 		}
 	});	
 	$.ajax({
-		url:'http://api.geonames.org/findNearbyPlaceNameJSON?lat='+lat+'&lng='+lng+'&username='+username,
+		url:'http://api.geonames.org/citiesJSON?lat='+lat+'&lng='+lng+'&username='+username,
 		type:'GET',
 		responseType:'JSON',
 		success:function (data) {
