@@ -134,8 +134,14 @@ body{
 	}
 	#toggle{
 		top: 6%;
-    	right: 2%;
+    	right: 2.75%;
     	margin-top: 0px;
+	}
+	#fullscreen-toggle{
+		position: fixed;
+    	top: 11%;
+    	left: 1.25%;
+    	transform: scale(1.4);
 	}
 
 }
@@ -170,6 +176,12 @@ body{
 	#small-town{
 		font-size: 1.5rem;
 	}
+	#fullscreen-toggle{
+	position: fixed;
+    top: 28%;
+    left: 3.5%;
+    transform: scale(1.4);
+	}	
 
 }
 
