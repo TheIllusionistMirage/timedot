@@ -22268,11 +22268,11 @@ function getTime(lat,lng){
 		}
 	});	
 	$.ajax({
-		url:'http://api.geonames.org/findNearbyPOIsOSMJSON?lat='+lat+'&lng='+lng+'&username='+username,
+		url:'http://api.geonames.org/findNearbyPlaceNameJSON?lat='+lat+'&lng='+lng+'&username='+username,
 		type:'GET',
 		responseType:'JSON',
 		success:function (data) {
-			console.log(data.poi);
+			console.log(data);
 			try{
 				var placename = data.geonames[0].name;
 				var state = data.geonames[0].adminName1;

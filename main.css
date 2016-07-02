@@ -92,6 +92,7 @@ body{
     right: 6.5%;
     margin-top: 10px;
     margin-left: 5px;
+    z-index: 99;
 }
 #toggle-label{
 	font-size: 2rem;
