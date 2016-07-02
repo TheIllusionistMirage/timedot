@@ -22272,7 +22272,7 @@ function getTime(lat,lng){
 		type:'GET',
 		responseType:'JSON',
 		success:function (data) {
-			console.log(data);
+			console.log(data.poi);
 			try{
 				var placename = data.geonames[0].name;
 				var state = data.geonames[0].adminName1;
