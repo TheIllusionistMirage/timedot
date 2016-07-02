@@ -20415,7 +20415,8 @@
 					{ id: "header" },
 					"Time Dot"
 				),
-				React.createElement("img", { id: "logo", src: "custom_marker.svg" })
+				React.createElement("img", { id: "logo", src: "custom_marker.svg" }),
+				React.createElement("div", { id: "image-center" })
 			);
 		}
 	});
