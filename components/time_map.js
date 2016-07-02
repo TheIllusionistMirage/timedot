@@ -39,11 +39,13 @@ function initMap() {
 	    anchor: new google.maps.Point(16,16)
 
   	};
-	marker = new google.maps.Marker({
+	marker = new SlidingMarker({
 		position:IpLatLng,
 		map: map,
 		draggable:true,
-		icon:image
+		icon:image,
+          duration: 2000,
+          easing:"easeOutExpo"
 	});
 	var marker_latlng;
 		console.log(marker_latlng);
