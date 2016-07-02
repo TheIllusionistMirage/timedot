@@ -99,7 +99,7 @@ $("#dn").change(function() {
 $('#fullscreen-toggle').click(function () {
      TweenMax.to($('#react-container'),1.5,{
           height:'100%',
-          ease:Bounce.easeOut
+          ease:Power3.easeOut
      });
      TweenMax.to($('#fullscreen-toggle'),1.5,{
           rotation:180,
