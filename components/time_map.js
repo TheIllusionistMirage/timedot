@@ -101,6 +101,11 @@ $('#fullscreen-toggle').click(function () {
           height:'100%',
           ease:Bounce.easeOut
      });
+     TweenMax.to($('#fullscreen-toggle'),1.5,{
+          rotation:540,
+          top:'96%',
+          ease:Bounce.easeOut
+     });
 });
 /*
 The Project Gutenberg EBook of Moby Dick; or The Whale, by Herman Melville
