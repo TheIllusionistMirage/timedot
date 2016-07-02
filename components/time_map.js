@@ -74,10 +74,10 @@ map.panTo(center);
 
 });
 $('#logo').click(function(){
-     markerCoord();
      var mapCenter = map.getCenter();
      console.log(mapCenter);
      marker.setPosition(mapCenter);
+     markerCoord();
 });
 timeRefresh();
 
