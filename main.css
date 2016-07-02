@@ -97,6 +97,13 @@ body{
 #toggle-label{
 	font-size: 2rem;
 }
+#image-center{
+	width: 40px;
+    height: 40px;
+    position: fixed;
+    top: 2%;
+    left: 1%;
+}
 @media screen and (min-width:768px){
 	#react-container{
 		height: 130px;

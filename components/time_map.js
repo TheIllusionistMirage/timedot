@@ -73,7 +73,7 @@ center = new google.maps.LatLng(marker_lat,marker_lng);
 map.panTo(center);
 
 });
-$('#logo').click(function(){
+$('#image-center').click(function(){
      var mapCenter = map.getCenter();
      console.log(mapCenter);
      marker.setPosition(mapCenter);
