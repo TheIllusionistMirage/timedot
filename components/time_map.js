@@ -97,13 +97,14 @@ $("#dn").change(function() {
 
 });
 $('#fullscreen-toggle').click(function () {
-     TweenMax.to($('#react-container'),1.5,{
+     TweenMax.to($('#react-container'),1,{
           height:'100%',
           ease:Power2.easeOut
      });
-     TweenMax.to($('#fullscreen-toggle'),1.5,{
+     TweenMax.to($('#fullscreen-toggle'),1,{
           rotation:180,
-          top:'96%'
+          top:'96%',
+          ease:Power0.easeNone
      });
 });
 /*
