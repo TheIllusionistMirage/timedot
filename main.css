@@ -1,6 +1,7 @@
 html{
 	background-color: #252929 !important;
 	height:100%;
+	overflow: none;
 }
 body{
 	overflow: hidden;
@@ -178,7 +179,7 @@ body{
 	}
 	#fullscreen-toggle{
 	position: fixed;
-    top: 28%;
+    top: 24%;
     left: 25px;
     transform: scale(1.4);
 	}	
