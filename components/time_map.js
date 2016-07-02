@@ -29,8 +29,7 @@ function initMap() {
 	
 	map = new google.maps.Map(document.getElementById('map-container'), {
 		zoom: 8,
-		center:IpLatLng,
-          
+		center:IpLatLng
 	});
 	var image = {
 	    url: './custom_marker.png',
@@ -40,11 +39,13 @@ function initMap() {
 	    anchor: new google.maps.Point(16,16)
 
   	};
-	marker = new google.maps.Marker({
+	marker = new SlidingMarker({
 		position:IpLatLng,
 		map: map,
 		draggable:true,
-		icon:image
+		icon:image,
+          duration:1000,
+          ease:"easeOutQuad"
 	});
 	var marker_latlng;
 		console.log(marker_latlng);
