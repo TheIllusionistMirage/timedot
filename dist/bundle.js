@@ -20459,13 +20459,18 @@
 		render: function render() {
 			return React.createElement(
 				"div",
-				{ id: "toggle" },
+				null,
 				React.createElement(
-					"label",
-					{ "for": "dn", id: "toggle-label", className: "pull-right" },
-					React.createElement("input", { type: "checkbox", id: "dn" }),
-					"24HR"
-				)
+					"div",
+					{ id: "toggle" },
+					React.createElement(
+						"label",
+						{ "for": "dn", id: "toggle-label", className: "pull-right" },
+						React.createElement("input", { type: "checkbox", id: "dn" }),
+						"24HR"
+					)
+				),
+				React.createElement("button", { id: "center-map" })
 			);
 		}
 	});
