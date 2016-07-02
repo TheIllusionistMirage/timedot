@@ -10,7 +10,6 @@ var Toggle = React.createClass({
 			  	24HR
 			  </label>
 			</div>
-			<button id="center-map"></button>
 		</div>
 		)
 	}

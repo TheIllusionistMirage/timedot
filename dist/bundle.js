@@ -20469,8 +20469,7 @@
 						React.createElement("input", { type: "checkbox", id: "dn" }),
 						"24HR"
 					)
-				),
-				React.createElement("button", { id: "center-map" })
+				)
 			);
 		}
 	});
