@@ -45,7 +45,7 @@ function initMap() {
 		draggable:true,
 		icon:image,
           duration: 2000,
-          easing:"easeOutExpo"
+          easing:"easeOut"
 	});
 	var marker_latlng;
 		console.log(marker_latlng);
