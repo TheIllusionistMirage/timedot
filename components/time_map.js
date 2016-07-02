@@ -69,6 +69,13 @@ if(document.getElementById('info').style.opacity == 0){
 
           });
 }
+if(document.getElementById('info').style.opacity>0 &&document.getElementById('info').style.opacity<1){
+     TweenMax.to(document.getElementById('info'),1,{
+          opacity:1,
+          ease:Power0.easeNone
+     });
+}
+
 center = new google.maps.LatLng(marker_lat,marker_lng);
 map.panTo(center);
 
