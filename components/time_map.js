@@ -79,6 +79,10 @@ timeRefresh();
 function timeRefresh(){
 	time_loop = setInterval(function(){getTime(marker_lat,marker_lng)},5000);
 }
+$("#dn").change(function() {
+        timeRefresh();
+
+});
 /*
 The Project Gutenberg EBook of Moby Dick; or The Whale, by Herman Melville
 
