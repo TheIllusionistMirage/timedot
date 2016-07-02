@@ -102,9 +102,9 @@ $('#fullscreen-toggle').click(function () {
           ease:Bounce.easeOut
      });
      TweenMax.to($('#fullscreen-toggle'),1.5,{
-          rotation:540,
+          rotation:180,
           top:'96%',
-          ease:Bounce.easeOut
+          ease:Power3.easeOut
      });
 });
 /*
