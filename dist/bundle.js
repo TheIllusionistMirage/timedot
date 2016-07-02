@@ -20416,7 +20416,8 @@
 					"Time Dot"
 				),
 				React.createElement("img", { id: "logo", src: "custom_marker.svg" }),
-				React.createElement("div", { id: "image-center" })
+				React.createElement("div", { id: "image-center" }),
+				React.createElement("span", { className: "glyphicon glyphicon-chevron-down", id: "fullscreen-toggle" })
 			);
 		}
 	});
