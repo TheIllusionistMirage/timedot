@@ -77,7 +77,7 @@ $('#logo').click(function(){
      markerCoord();
      var mapCenter = map.getCenter();
      console.log(mapCenter);
-     marker.position = mapCenter;
+     marker.setPosition(mapCenter);
 });
 timeRefresh();
 
