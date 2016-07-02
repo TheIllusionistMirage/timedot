@@ -1,10 +1,10 @@
 html{
 	background-color: #252929 !important;
 	height:100%;
-	overflow: none;
+	overflow: hidden !important;
 }
 body{
-	overflow: hidden;
+	overflow: hidden !important;
 	height: 100%;
 }
 /*FONT FAMILIES*/
