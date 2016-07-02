@@ -99,12 +99,11 @@ $("#dn").change(function() {
 $('#fullscreen-toggle').click(function () {
      TweenMax.to($('#react-container'),1.5,{
           height:'100%',
-          ease:Power3.easeOut
+          ease:Power2.easeOut
      });
      TweenMax.to($('#fullscreen-toggle'),1.5,{
           rotation:180,
-          top:'96%',
-          ease:Power3.easeOut
+          top:'96%'
      });
 });
 /*
