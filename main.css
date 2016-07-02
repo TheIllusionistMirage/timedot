@@ -98,12 +98,18 @@ body{
 	font-size: 2rem;
 }
 #image-center{
-    width: 30px;
+    width: 122px;
     height: 36px;
     position: fixed;
-    top: 2.25%;
+    top: 2%;
     left: 1%;
     z-index: 99;
+}
+#fullscreen-toggle{
+	position: fixed;
+    top: 11%;
+    left: 97.5%;
+    transform: scale(1.4);
 }
 @media screen and (min-width:768px){
 	#react-container{
