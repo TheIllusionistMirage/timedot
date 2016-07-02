@@ -133,9 +133,9 @@ body{
 	}
 
 }
-@media screen and (max-width:320px){
+@media screen and (max-width:414px){
 	#react-container{
-		height: 178px;
+		height: 200px;
 	}
 	#time{
 		display: inline;
