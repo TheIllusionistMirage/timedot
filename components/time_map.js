@@ -29,7 +29,8 @@ function initMap() {
 	
 	map = new google.maps.Map(document.getElementById('map-container'), {
 		zoom: 8,
-		center:IpLatLng
+		center:IpLatLng,
+          
 	});
 	var image = {
 	    url: './custom_marker.png',
