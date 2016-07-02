@@ -9,6 +9,7 @@ var ip;
 var hours;
 var minutes;
 var time_loop;
+var center;
 
 function initMap() {
 
@@ -68,12 +69,16 @@ if(document.getElementById('info').style.opacity == 0){
 
           });
 }
-var center = new google.maps.LatLng(marker_lat,marker_lng);
+center = new google.maps.LatLng(marker_lat,marker_lng);
 map.panTo(center);
 
 });
+$('#logo').click(function(){
+     markerCoord();
+     var mapCenter = map.getCenter();
+     marker.panTo(mapCenter);
+});
 timeRefresh();
-
 
 }
 function timeRefresh(){
