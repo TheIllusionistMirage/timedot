@@ -115,7 +115,7 @@ $('#fullscreen-toggle').click(function () {
                });
                TweenMax.to($('#fullscreen-toggle'),0.5,{
                     rotation:0,
-                    top:'11%',
+                    top:'105px',
                     ease:Power1.easeOut
                });
           }
@@ -137,7 +137,7 @@ $('#fullscreen-toggle').click(function () {
                });
                TweenMax.to($('#fullscreen-toggle'),0.5,{
                     rotation:0,
-                    top:'11%',
+                    top:'138px',
                     ease:Power1.easeOut
                });
           }
