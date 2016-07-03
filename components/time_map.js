@@ -103,7 +103,7 @@ $('#fullscreen-toggle').click(function () {
      });
      TweenMax.to($('#fullscreen-toggle'),0.5,{
           rotation:180,
-          top:'713px',
+          top:'95%',
           ease:Power1.easeOut
      });
 });
