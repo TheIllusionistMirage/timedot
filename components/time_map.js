@@ -107,8 +107,9 @@ $('#fullscreen-toggle').click(function () {
           ease:Power1.easeOut
      });
 
-     if($('#react-container').css('height') == '100%'){
+     if(document.getElementById('react-container').style.height == '100%'){
           var width = $( window ).width(); 
+          console.log(width);
           if(width >= 768){
                TweenMax.to($('#react-container'),0.5,{
                     height:'130px',
