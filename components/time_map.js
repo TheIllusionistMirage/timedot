@@ -130,7 +130,7 @@ $('#fullscreen-toggle').click(function () {
                     ease:Power1.easeOut
                });
           }
-          else if(width>414 && width < 768){
+          if(document.getElementById('time').style.fontSize == '8.5rem'){
                TweenMax.to($('#react-container'),0.5,{
                     height:'211px',
                     ease:Power1.easeOut
