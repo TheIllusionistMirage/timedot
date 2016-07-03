@@ -22360,19 +22360,6 @@ console.log(window.innerWidth);
 $(window).resize(function(){
 	TweenMax.set("#react-container", {clearProps:"all"});
 	TweenMax.set("#fullscreen-toggle",{clearProps:"all"});
-     if(width >= 768){
-          document.getElementById('fullscreen-toggle').style.top = '13%';
-     }
-     if(width == 1920){
-          document.getElementById('fullscreen-toggle').style.top = '11%';
-     }
-     else if(width <= 414){
-          document.getElementById('fullscreen-toggle').style.top = '175px';
-     }
-     else{
-          document.getElementById('fullscreen-toggle').style.top = '13%';   
-     }
-
 });
 
 
