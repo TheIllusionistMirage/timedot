@@ -115,16 +115,31 @@ $('#fullscreen-toggle').click(function () {
                     height:'130px',
                     ease:Power1.easeOut
                });
+               TweenMax.to($('#fullscreen-toggle'),0.5,{
+                    rotation:0,
+                    top:'11%',
+                    ease:Power1.easeOut
+               });
           }
           else if(width <= 414){
                TweenMax.to($('#react-container'),0.5,{
                     height:'200px',
                     ease:Power1.easeOut
                });
+               TweenMax.to($('#fullscreen-toggle'),0.5,{
+                    rotation:0,
+                    top:'175px',
+                    ease:Power1.easeOut
+               });
           }
           else{
                TweenMax.to($('#react-container'),0.5,{
                     height:'211px',
+                    ease:Power1.easeOut
+               });
+               TweenMax.to($('#fullscreen-toggle'),0.5,{
+                    rotation:0,
+                    top:'11%',
                     ease:Power1.easeOut
                });
           }
