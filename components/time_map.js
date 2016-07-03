@@ -108,13 +108,14 @@ $('#fullscreen-toggle').click(function () {
      });
 
      if($('#react-container').css('height') == '100%'){
-          if($( window ).width() >= 768){
+          var width = $( window ).width(); 
+          if(width >= 768){
                TweenMax.to($('#react-container'),0.5,{
                     height:'130px',
                     ease:Power1.easeOut
                });
           }
-          else if($( window ).width() <= 414){
+          else if(width <= 414){
                TweenMax.to($('#react-container'),0.5,{
                     height:'200px',
                     ease:Power1.easeOut
