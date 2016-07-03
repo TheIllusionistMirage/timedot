@@ -10,7 +10,7 @@ var hours;
 var minutes;
 var time_loop;
 var center;
-var width = $( window ).width(); 
+var width = window.innerWidth; 
 function initMap() {
 
 	$.ajax({
@@ -97,17 +97,69 @@ $("#dn").change(function() {
 
 });
 $('#fullscreen-toggle').click(function () {
+     width = $(window).width();
+     if(width>768){
+          TweenMax.to($('#time'),0.5,{
+               fontSize:'25rem',
+               marginBottom:'-23px',
+               marginTop:'127px',
+               offset:0.5,
+               ease:Power1.easeOut
+          });  
+          TweenMax.to($('#time-zone'),0.5,{
+               fontSize:'6.5rem',
+               marginTop:'2px',
+               offset:0.5,
+               ease:Power1.easeOut
+          }); 
+          TweenMax.to($('#small-town'),0.5,{
+               fontSize:'4rem',
+               marginTop:'-41px',
+               offset:0.5,
+               ease:Power1.easeOut
+          }); 
+          TweenMax.to($('#fullscreen-toggle'),0.5,{
+               rotation:180,
+               top:'95%',
+               ease:Power1.easeOut
+          });
+     }
+     if(width<768){
+          TweenMax.to($('#time'),0.5,{
+               fontSize:'10rem',
+               marginBottom:'-23px',
+               marginTop:'127px',
+               offset:0.5,
+               ease:Power1.easeOut
+          });  
+          TweenMax.to($('#time-zone'),0.5,{
+               fontSize:'2.8rem',
+               marginTop:'27px',
+               offset:0.5,
+               ease:Power1.easeOut
+          }); 
+          TweenMax.to($('#small-town'),0.5,{
+               fontSize:'2.8rem',
+               marginTop:'-30px',
+               offset:0.5,
+               ease:Power1.easeOut
+          }); 
+          TweenMax.to($('#fullscreen-toggle'),0.5,{
+               rotation:180,
+               top:'95%',
+               ease:Power1.easeOut
+          });
+     }
      TweenMax.to($('#react-container'),0.5,{
           height:'100%',
           ease:Power1.easeOut
      });
-     TweenMax.to($('#fullscreen-toggle'),0.5,{
-          rotation:180,
-          top:'95%',
-          ease:Power1.easeOut
-     });
+
+
 
      if(document.getElementById('react-container').style.height == '100%'){
+          console.log();
+          width = $(window).width();
           if(width >= 768){
                TweenMax.to($('#react-container'),0.5,{
                     height:'130px',
@@ -118,17 +170,55 @@ $('#fullscreen-toggle').click(function () {
                     top:'105px',
                     ease:Power1.easeOut
                });
+               TweenMax.to($('#time'),0.5,{
+                    fontSize:'6.5rem',
+                    marginBottom:'-4px',
+                    marginTop:'-63px',
+                    offset:0.5,
+                    ease:Power1.easeOut
+               });  
+               TweenMax.to($('#time-zone'),0.5,{
+                    fontSize:'2.5rem',
+                    marginTop:'2px',
+                    offset:0.5,
+                    ease:Power1.easeOut
+               }); 
+               TweenMax.to($('#small-town'),0.5,{
+                    fontSize:'2rem',
+                    marginTop:'-41px',
+                    offset:0.5,
+                    ease:Power1.easeOut
+               }); 
           }
-          else if(width < 768){
+          else if(width <= 414){
                TweenMax.to($('#react-container'),0.5,{
                     height:'211px',
                     ease:Power1.easeOut
                });
                TweenMax.to($('#fullscreen-toggle'),0.5,{
                     rotation:0,
-                    top:'175px',
+                    top:'186px',
                     ease:Power1.easeOut
                });
+               TweenMax.to($('#time'),0.5,{
+                    fontSize:'5.5rem',
+                    marginBottom:'-20px',
+                    marginTop:'16px',
+                    offset:0.5,
+                    ease:Power1.easeOut
+               });  
+               TweenMax.to($('#time-zone'),0.5,{
+                    fontSize:'2.5rem',
+                    marginTop:'18px',
+                    offset:0.5,
+                    ease:Power1.easeOut
+               }); 
+               TweenMax.to($('#small-town'),0.5,{
+                    fontSize:'1.5rem',
+                    marginTop:'-39px',
+                    offset:0.5,
+                    ease:Power1.easeOut
+               }); 
           }
 
 
@@ -22349,6 +22439,9 @@ console.log(window.innerWidth);
 $(window).resize(function(){
 	TweenMax.set("#react-container", {clearProps:"all"});
 	TweenMax.set("#fullscreen-toggle",{clearProps:"all"});
+     TweenMax.set("#time",{clearProps:"all"});
+     TweenMax.set("#time-zone",{clearProps:"all"});
+     TweenMax.set("#small-town",{clearProps:"all"});
 });
 
 

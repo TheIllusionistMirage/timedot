@@ -20,7 +20,6 @@ body{
 	color:#C2524E;
 	border-bottom: 3px solid #C2524E;
 	height:211px;
-	z-index:-3;
 }
 #info{
 	overflow: hidden;
@@ -122,6 +121,7 @@ body{
 	    margin-bottom: -4px;
 	    color: #BEC2C2;
 	    margin-top: -63px;
+	    vertical-align: center;
 	}
 	#time-zone{
 		margin-top: 2px;
