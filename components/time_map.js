@@ -22361,7 +22361,7 @@ function getTime(lat,lng){
 console.log(window.innerWidth);
 $(window).resize(function(){
 	TweenMax.set("#react-container", {clearProps:"all"});
-	TweenMax.set("#expand", {clearProps:"all"});
+	TweenMax.set("#fullscreen-toggle",{clearProps:"all"});
 });
 
 
