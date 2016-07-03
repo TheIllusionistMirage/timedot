@@ -10,7 +10,7 @@ var hours;
 var minutes;
 var time_loop;
 var center;
-
+var width = $( window ).width(); 
 function initMap() {
 
 	$.ajax({
@@ -108,8 +108,6 @@ $('#fullscreen-toggle').click(function () {
      });
 
      if(document.getElementById('react-container').style.height == '100%'){
-          var width = $( window ).width(); 
-          console.log(width);
           if(width >= 768){
                TweenMax.to($('#react-container'),0.5,{
                     height:'130px',
@@ -22362,6 +22360,16 @@ console.log(window.innerWidth);
 $(window).resize(function(){
 	TweenMax.set("#react-container", {clearProps:"all"});
 	TweenMax.set("#fullscreen-toggle",{clearProps:"all"});
+     if(width >= 768){
+          document.getElementById('fullscreen-toggle').style.top = '11%';
+     }
+     else if(width <= 414){
+          document.getElementById('fullscreen-toggle').style.top = '175px';
+     }
+     else{
+          document.getElementById('fullscreen-toggle').style.top = '11%';   
+     }
+
 });
 
 
