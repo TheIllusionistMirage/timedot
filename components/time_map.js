@@ -119,25 +119,14 @@ $('#fullscreen-toggle').click(function () {
                     ease:Power1.easeOut
                });
           }
-          else if(width <= 414){
-               TweenMax.to($('#react-container'),0.5,{
-                    height:'200px',
-                    ease:Power1.easeOut
-               });
-               TweenMax.to($('#fullscreen-toggle'),0.5,{
-                    rotation:0,
-                    top:'175px',
-                    ease:Power1.easeOut
-               });
-          }
-          if(document.getElementById('time').style.fontSize == '8.5rem'){
+          else if(width < 768){
                TweenMax.to($('#react-container'),0.5,{
                     height:'211px',
                     ease:Power1.easeOut
                });
                TweenMax.to($('#fullscreen-toggle'),0.5,{
                     rotation:0,
-                    top:'138px',
+                    top:'175px',
                     ease:Power1.easeOut
                });
           }
