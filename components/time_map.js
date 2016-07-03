@@ -22363,6 +22363,9 @@ $(window).resize(function(){
      if(width >= 768){
           document.getElementById('fullscreen-toggle').style.top = '13%';
      }
+     if(width == 1920){
+          document.getElementById('fullscreen-toggle').style.top = '11%';
+     }
      else if(width <= 414){
           document.getElementById('fullscreen-toggle').style.top = '175px';
      }
