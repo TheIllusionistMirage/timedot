@@ -22361,13 +22361,13 @@ $(window).resize(function(){
 	TweenMax.set("#react-container", {clearProps:"all"});
 	TweenMax.set("#fullscreen-toggle",{clearProps:"all"});
      if(width >= 768){
-          document.getElementById('fullscreen-toggle').style.top = '11%';
+          document.getElementById('fullscreen-toggle').style.top = '13%';
      }
      else if(width <= 414){
           document.getElementById('fullscreen-toggle').style.top = '175px';
      }
      else{
-          document.getElementById('fullscreen-toggle').style.top = '11%';   
+          document.getElementById('fullscreen-toggle').style.top = '13%';   
      }
 
 });
