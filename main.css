@@ -198,6 +198,11 @@ body{
 	}
 
 }
+@media (orientation:landscape){
+	#toggle{
+		margin-top: 10px;
+	}
+}
 
 
 
