@@ -102,7 +102,7 @@ $('#fullscreen-toggle').click(function () {
           TweenMax.to($('#time'),0.5,{
                fontSize:'21.5rem',
                marginBottom:'-23px',
-               marginTop:'127px',
+               marginTop:'250px',
                offset:0.5,
                ease:Power1.easeOut
           });  
