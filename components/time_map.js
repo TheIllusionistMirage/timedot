@@ -156,7 +156,7 @@ $('#fullscreen-toggle').click(function () {
           TweenMax.to($('#time'),0.5,{
                fontSize:'6.5rem',
                marginBottom:'-23px',
-               marginTop:'100px',
+               marginTop:'150px',
                offset:0.5,
                ease:Power1.easeOut
           });  
