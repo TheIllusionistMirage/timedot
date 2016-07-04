@@ -101,9 +101,9 @@ $('#fullscreen-toggle').click(function () {
      width = $(window).width();
      if(width>=768){
           TweenMax.to($('#time'),0.5,{
-               fontSize:'18.5rem',
+               fontSize:'19.5rem',
                marginBottom:'-23px',
-               marginTop:'250px',
+               marginTop:'150px',
                offset:0.5,
                ease:Power1.easeOut
           });  
