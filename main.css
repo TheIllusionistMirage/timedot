@@ -209,15 +209,15 @@ body{
 @media screen and (width:1024px){
 	#madeby{
 		top:91%;
-    	left:45.5%;
+    	left:43.5%;
 	}
 	#twitter{
 		top:95%;
-		left:49%;
+		left:48%;
 	}
 	#github{
 		top:93.5%;
-		left:54%;
+		left:52%;
 	}
 
 }
