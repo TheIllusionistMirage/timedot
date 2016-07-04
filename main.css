@@ -219,6 +219,9 @@ body{
 		top:93.5%;
 		left:52%;
 	}
+	#logo{
+		top:2%;
+	}
 
 }
 @media screen and (width:1024px) and (orientation:landscape){
@@ -293,7 +296,7 @@ body{
 	}
 
 }
-@media screen and (max-width:360px){
+@media screen and (width:360px){
 	#time-zone{
 		font-size: 2rem;
 	}
@@ -317,7 +320,7 @@ body{
 	}
 
 }
-@media screen and (max-width:320px){
+@media screen and (width:320px){
 	#madeby{
 		top:90%;
     	left:28.5%;
@@ -330,12 +333,20 @@ body{
 		top:92.75%;
 		left:53%;
 	}
+	#toggle{
+		margin-top: 7px;
+	}
 
 }
 
 @media (orientation:landscape){
 	#toggle{
 		margin-top: 10px;
+	}
+}
+@media screen and(max-width:768)and(orientation:landscape){
+	#toggle{
+		margin-top: 31px;
 	}
 }
 
