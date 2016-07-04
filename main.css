@@ -225,8 +225,8 @@ body{
 
 }
 @media screen and (width:1024px) and (orientation:landscape){
-	#about{
-		left:44%;
+	#logo{
+		top:2%;
 	}
 
 }
