@@ -118,12 +118,16 @@ body{
 	left:47%;
 	top:95%;
 	white-space: nowrap;
-	opacity: 0;
+	opacity: 1;
 }
 #username{
 	color:#FFF;
 	font-weight: 300;
+	text-decoration: underline;
 
+}
+#username:hover{
+	color:#C2524E;
 }
 #madeby{
 	position: fixed;
@@ -202,6 +206,36 @@ body{
 	}
 
 }
+@media screen and (width:1024px){
+	#madeby{
+		top:91%;
+    	left:45.5%;
+	}
+	#twitter{
+		top:95%;
+		left:49%;
+	}
+	#github{
+		top:94%;
+		left:54%;
+	}
+
+}
+@media screen and (width:768px){
+	#madeby{
+		top:93%;
+    	left:40.5%;
+	}
+	#twitter{
+		top:96%;
+		left:46%;
+	}
+	#github{
+		top:95%;
+		left:52%;
+	}
+
+}
 @media screen and (max-width:414px){
 	#react-container{
 		height: 200px;
@@ -251,8 +285,36 @@ body{
 	#toggle{
 		margin-top: 14px;  
 	}
+	#madeby{
+		top:90%;
+    	left:28.5%;
+	}
+	#twitter{
+		top:94%;
+		left:41%;
+	}
+	#github{
+		top:92.75%;
+		left:53%;
+	}
 
 }
+@media screen and (max-width:320px){
+	#madeby{
+		top:90%;
+    	left:28.5%;
+	}
+	#twitter{
+		top:94%;
+		left:41%;
+	}
+	#github{
+		top:92.75%;
+		left:53%;
+	}
+
+}
+
 @media (orientation:landscape){
 	#toggle{
 		margin-top: 3px;

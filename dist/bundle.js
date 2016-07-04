@@ -20529,11 +20529,11 @@
 				React.createElement(
 					"span",
 					{ id: "madeby" },
-					"Made by:",
+					"Made by:  ",
 					React.createElement(
 						"a",
 						{ id: "username", target: "_blank", href: "https://iancarrasco.github.io" },
-						"  Ian Carrasco"
+						"Ian Carrasco"
 					)
 				),
 				React.createElement("span", { id: "problems" })
