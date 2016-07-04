@@ -216,7 +216,7 @@ body{
 		left:49%;
 	}
 	#github{
-		top:94%;
+		top:93.5%;
 		left:54%;
 	}
 
@@ -273,6 +273,18 @@ body{
 	    left: 6px;
 	    transform: scale(1.8);
 	}	
+	#madeby{
+		top:91%;
+    	left:28.5%;
+	}
+	#twitter{
+		top:95%;
+		left:40%;
+	}
+	#github{
+		top:93.7%;
+		left:50%;
+	}
 
 }
 @media screen and (max-width:360px){
@@ -317,7 +329,7 @@ body{
 
 @media (orientation:landscape){
 	#toggle{
-		margin-top: 3px;
+		margin-top: 10px;
 	}
 }
 
