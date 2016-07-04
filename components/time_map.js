@@ -60,6 +60,7 @@ function initMap() {
 
 	
 }
+
 markerCoord();
 google.maps.event.addListener(marker,'dragend',function(){
 markerCoord();
@@ -98,6 +99,7 @@ $("#dn").change(function() {
 
 });
 $('#fullscreen-toggle').click(function () {
+     document.getElementById('about').style.opacity = 1;
      width = $(window).width();
      if(width>=768){
           TweenMax.to($('#time'),0.5,{
@@ -127,7 +129,7 @@ $('#fullscreen-toggle').click(function () {
      }
      if(width<768 && width>360){
           TweenMax.to($('#time'),0.5,{
-               fontSize:'10rem',
+               fontSize:'9.2rem',
                marginBottom:'-23px',
                marginTop:'175px',
                offset:0.5,
@@ -140,7 +142,7 @@ $('#fullscreen-toggle').click(function () {
                ease:Power1.easeOut
           }); 
           TweenMax.to($('#small-town'),0.5,{
-               fontSize:'2.8rem',
+               fontSize:'2rem',
                marginTop:'-30px',
                offset:0.5,
                ease:Power1.easeOut
@@ -190,6 +192,7 @@ $('#fullscreen-toggle').click(function () {
 
      if(document.getElementById('react-container').style.height == '100%'){
           console.log();
+          document.getElementById('about').style.opacity = 0;
           width = $(window).width();
           if(width >= 768){
                TweenMax.to($('#react-container'),0.5,{
