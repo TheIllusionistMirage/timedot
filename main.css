@@ -221,6 +221,12 @@ body{
 	}
 
 }
+@media screen and (width:1024px) and (orientation:landscape){
+	#about{
+		left:44%;
+	}
+
+}
 @media screen and (width:768px){
 	#madeby{
 		top:93%;
@@ -279,11 +285,11 @@ body{
 	}
 	#twitter{
 		top:94%;
-		left:40%;
+		left:38%;
 	}
 	#github{
 		top:92.7%;
-		left:50%;
+		left:48%;
 	}
 
 }
