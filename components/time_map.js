@@ -11,6 +11,7 @@ var minutes;
 var time_loop;
 var center;
 var width = window.innerWidth; 
+
 function initMap() {
 
 	$.ajax({
@@ -102,7 +103,7 @@ $('#fullscreen-toggle').click(function () {
           TweenMax.to($('#time'),0.5,{
                fontSize:'21.5rem',
                marginBottom:'-23px',
-               marginTop:'250px',
+               marginTop:'150px',
                offset:0.5,
                ease:Power1.easeOut
           });  
