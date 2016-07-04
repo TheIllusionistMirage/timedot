@@ -52,6 +52,7 @@
 	var Time = __webpack_require__(169);
 	var Toggle = __webpack_require__(170);
 	var Water = __webpack_require__(171);
+	var About = __webpack_require__(172);
 	var APP = React.createClass({
 		displayName: 'APP',
 		render: function render() {
@@ -20417,6 +20418,7 @@
 				),
 				React.createElement("img", { id: "logo", src: "custom_marker.svg" }),
 				React.createElement("div", { id: "image-center" }),
+				React.createElement("div", { id: "fullscreen-wrapper" }),
 				React.createElement("span", { className: "glyphicon glyphicon-chevron-down", id: "fullscreen-toggle" })
 			);
 		}
@@ -20506,6 +20508,34 @@
 	});
 
 	module.exports = Water;
+
+/***/ },
+/* 172 */
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+
+	var React = __webpack_require__(1);
+
+	var About = React.createClass({
+		displayName: "About",
+		render: function render() {
+			return React.createElement(
+				"div",
+				{ id: "about" },
+				React.createElement("span", { id: "twitter" }),
+				React.createElement("span", { id: "github" }),
+				React.createElement(
+					"span",
+					{ id: "madeby" },
+					"Made by:"
+				),
+				React.createElement("span", { id: "problems" })
+			);
+		}
+	});
+
+	module.exports = About;
 
 /***/ }
 /******/ ]);
