@@ -124,7 +124,7 @@ $('#fullscreen-toggle').click(function () {
                ease:Power1.easeOut
           });
      }
-     if(width<768){
+     if(width<768 && width>360){
           TweenMax.to($('#time'),0.5,{
                fontSize:'10rem',
                marginBottom:'-23px',
@@ -150,10 +150,39 @@ $('#fullscreen-toggle').click(function () {
                ease:Power1.easeOut
           });
      }
+ 
+     
+     if(width<360){
+          TweenMax.to($('#time'),0.5,{
+               fontSize:'6.5rem',
+               marginBottom:'-23px',
+               marginTop:'100px',
+               offset:0.5,
+               ease:Power1.easeOut
+          });  
+          TweenMax.to($('#time-zone'),0.5,{
+               fontSize:'2rem',
+               marginTop:'28px',
+               offset:0.5,
+               ease:Power1.easeOut
+          }); 
+          TweenMax.to($('#small-town'),0.5,{
+               fontSize:'1.8rem',
+               marginTop:'-30px',
+               offset:0.5,
+               ease:Power1.easeOut
+          });
+          TweenMax.to($('#fullscreen-toggle'),0.5,{
+               rotation:180,
+               top:'95%',
+               ease:Power1.easeOut
+          });
+
+     }
      TweenMax.to($('#react-container'),0.5,{
           height:'100%',
-          ease:Power1.easeOut
-     });
+          ease:Power1.easeOut  
+     });    
 
 
 
@@ -190,7 +219,7 @@ $('#fullscreen-toggle').click(function () {
                     ease:Power1.easeOut
                }); 
           }
-          else if(width <= 414){
+          else if(width <= 414 && width >360){
                TweenMax.to($('#react-container'),0.5,{
                     height:'211px',
                     ease:Power1.easeOut
@@ -209,6 +238,36 @@ $('#fullscreen-toggle').click(function () {
                });  
                TweenMax.to($('#time-zone'),0.5,{
                     fontSize:'2.5rem',
+                    marginTop:'18px',
+                    offset:0.5,
+                    ease:Power1.easeOut
+               }); 
+               TweenMax.to($('#small-town'),0.5,{
+                    fontSize:'1.5rem',
+                    marginTop:'-39px',
+                    offset:0.5,
+                    ease:Power1.easeOut
+               }); 
+          }
+          else if(width < 360){
+               TweenMax.to($('#react-container'),0.5,{
+                    height:'200px',
+                    ease:Power1.easeOut
+               });
+               TweenMax.to($('#fullscreen-toggle'),0.5,{
+                    rotation:0,
+                    top:'175px',
+                    ease:Power1.easeOut
+               });
+               TweenMax.to($('#time'),0.5,{
+                    fontSize:'5.5rem',
+                    marginBottom:'-20px',
+                    marginTop:'0px',
+                    offset:0.5,
+                    ease:Power1.easeOut
+               });  
+               TweenMax.to($('#time-zone'),0.5,{
+                    fontSize:'2rem',
                     marginTop:'18px',
                     offset:0.5,
                     ease:Power1.easeOut
