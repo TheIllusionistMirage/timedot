@@ -104,7 +104,7 @@ body{
 	position: fixed;
 	top: 185px;
 	left: 25px;
-	transform: scale(1.7);
+	transform: scale(1.8);
 	cursor: pointer;
 }
 #fullscreen-wrapper{
@@ -144,7 +144,7 @@ body{
 		position: fixed;
     	top: 105px;
     	left: 25px;
-    	transform: scale(1.4);
+    	transform: scale(1.8);
 	}
 
 }
@@ -183,7 +183,7 @@ body{
 		position: fixed;
 	    top: 175px;
 	    left: 6px;
-	    transform: scale(1.4);
+	    transform: scale(1.8);
 	}	
 
 }
