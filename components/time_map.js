@@ -100,7 +100,7 @@ $('#fullscreen-toggle').click(function () {
      width = $(window).width();
      if(width>=768){
           TweenMax.to($('#time'),0.5,{
-               fontSize:'23.5rem',
+               fontSize:'21.5rem',
                marginBottom:'-23px',
                marginTop:'127px',
                offset:0.5,
