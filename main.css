@@ -89,7 +89,7 @@ body{
 	display: block;
     position: fixed;
     top: 6%;
-    right: 6.5%;
+    right:30px;
     margin-top: 10px;
     margin-left: 5px;
     z-index: 99;
@@ -135,7 +135,7 @@ body{
 	}
 	#toggle{
 		top: 6%;
-    	right: 2.75%;
+    	right: 30px;
     	margin-top: 0px;
 	}
 	#fullscreen-toggle{
@@ -191,6 +191,9 @@ body{
 	}
 	#time{
 		margin-top: 0px;
+	}
+	#toggle{
+		margin-top: 14px;
 	}
 
 }
