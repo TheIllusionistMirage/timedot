@@ -189,37 +189,7 @@ $('#fullscreen-toggle').click(function () {
      if(document.getElementById('react-container').style.height == '100%'){
           console.log();
           width = $(window).width();
-          if(width == 768){
-               TweenMax.to($('#react-container'),0.5,{
-                    height:'130px',
-                    ease:Power1.easeOut
-               });
-               TweenMax.to($('#fullscreen-toggle'),0.5,{
-                    rotation:0,
-                    top:'105px',
-                    ease:Power1.easeOut
-               });
-               TweenMax.to($('#time'),0.5,{
-                    fontSize:'6.5rem',
-                    marginBottom:'-4px',
-                    marginTop:'-63px',
-                    offset:0.5,
-                    ease:Power1.easeOut
-               });  
-               TweenMax.to($('#time-zone'),0.5,{
-                    fontSize:'2.5rem',
-                    marginTop:'2px',
-                    offset:0.5,
-                    ease:Power1.easeOut
-               }); 
-               TweenMax.to($('#small-town'),0.5,{
-                    fontSize:'2rem',
-                    marginTop:'-41px',
-                    offset:0.5,
-                    ease:Power1.easeOut
-               }); 
-          }
-          else if(width == 768){
+          if(width > 750){
                TweenMax.to($('#react-container'),0.5,{
                     height:'130px',
                     ease:Power1.easeOut
@@ -279,7 +249,7 @@ $('#fullscreen-toggle').click(function () {
                     ease:Power1.easeOut
                }); 
           }
-          else if(width < 360){
+          else if(width <= 360){
                TweenMax.to($('#react-container'),0.5,{
                     height:'200px',
                     ease:Power1.easeOut
