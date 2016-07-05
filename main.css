@@ -70,7 +70,7 @@ body{
 #logo{
     width: 46px;
     left: 10px;
-    top: 1.5%;
+    top: 14px;
     position: fixed;
 }
 #small-town{
@@ -83,7 +83,7 @@ body{
 #toggle{
 	display: block;
     position: fixed;
-    top: 6%;
+    top: 35px;
     right:30px;
     margin-top: 10px;
     margin-left: 5px;
@@ -148,7 +148,7 @@ body{
 		margin-top: -41px;
 	}
 	#toggle{
-		top: 6%;
+		top: 35px;
     	right: 30px;
     	margin-top: 0px;
 	}
@@ -173,15 +173,9 @@ body{
 		top:93.5%;
 		left:52%;
 	}
-	#logo{
-		top:2%;
-	}
 
 }
 @media screen and (width:1024px) and (orientation:landscape){
-	#logo{
-		top:2%;
-	}
 
 }
 @media screen and (width:768px){
@@ -222,7 +216,7 @@ body{
 	}
 	#header{
 		
-		font-size: 2rem;
+		font-size: 2.5rem;
 	}
 	#logo{
 		width: 40px;
@@ -233,7 +227,7 @@ body{
 	#fullscreen-toggle{
 		position: fixed;
 	    top: 175px;
-	    left: 6px;
+	    left: 15px;
 	    transform: scale(1.8);
 	}	
 	#madeby{

@@ -101,7 +101,48 @@ $("#dn").change(function() {
 
 $('#fullscreen-toggle').click(function () {
      document.getElementById('about').style.opacity = 1;
-     width = $(window).width();
+     
+     if(document.getElementById('about').style.fontSize == '3rem'){
+          TweenMax.to($('#react-container'),1,{
+               rotationY:0,
+               ease:Power1.easeOut
+          });
+          TweenMax.to($('#header'),1,{
+               opacity:1,
+               ease:Power1.easeOut
+          });
+          TweenMax.to($('#info'),0.5,{
+               opacity:1,
+               ease:Power1.easeOut
+          });
+          TweenMax.to($('#toggle'),0.5,{
+               opacity:1,
+               ease:Power1.easeOut
+          });
+          TweenMax.to($('#fullscreen-toggle'),0.5,{
+               top: '95%',
+               left: '25px',
+               rotation:0,
+               ease:Power1.easeOut
+          });
+          TweenMax.to($('#logo'),0.5,{
+               opacity:1,
+               ease:Power1.easeOut
+          });
+          TweenMax.to($('#about'),0.5,{
+               rotationY:0,
+               left: '47%',
+               top: '95%',
+               fontSize: '14px',
+               ease:Power1.easeOut
+          });
+
+     }
+     else{
+          fullscreenMode($(window).width());
+     }
+});
+function fullscreenMode(width){
      if(width>=768){
           TweenMax.to($('#time'),0.5,{
                fontSize:'19.5rem',
@@ -130,7 +171,7 @@ $('#fullscreen-toggle').click(function () {
      }
      if(width<768 && width>360){
           TweenMax.to($('#time'),0.5,{
-               fontSize:'9.2rem',
+               fontSize:'8rem',
                marginBottom:'-23px',
                marginTop:'175px',
                offset:0.5,
@@ -285,13 +326,13 @@ $('#fullscreen-toggle').click(function () {
                     ease:Power1.easeOut
                }); 
           }
-
-
      }
-});
+}
+
+
 
 $('#about-toggle').click(function(){
-     width = $(window).width();
+     
      TweenMax.to($('#react-container'),1,{
           rotationY:180,
           ease:Power1.easeOut
@@ -309,9 +350,13 @@ $('#about-toggle').click(function(){
           ease:Power1.easeOut
      });
      TweenMax.to($('#fullscreen-toggle'),0.5,{
-          top: '3%',
+          top: '4%',
           left: '97%',
           rotation:270,
+          ease:Power1.easeOut
+     });
+     TweenMax.to($('#logo'),0.5,{
+          opacity:0,
           ease:Power1.easeOut
      });
      if(width <= 768){
@@ -321,6 +366,12 @@ $('#about-toggle').click(function(){
                left: '42%',
                top: '1.75%',
                fontSize: '3rem',
+               ease:Power1.easeOut
+          });
+          TweenMax.to($('#fullscreen-toggle'),0.5,{
+               top: '4%',
+               left: '90%',
+               rotation:270,
                ease:Power1.easeOut
           });
      }
@@ -334,6 +385,7 @@ $('#about-toggle').click(function(){
           });
      }
 });
+
 /*
 The Project Gutenberg EBook of Moby Dick; or The Whale, by Herman Melville
 
