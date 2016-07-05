@@ -120,6 +120,7 @@ body{
 	top:95%;
 	white-space: nowrap;
 	opacity: 0;
+	text-decoration: underline;
 }
 #about-toggle{
 	cursor: pointer;
