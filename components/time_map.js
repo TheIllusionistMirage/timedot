@@ -316,7 +316,7 @@ $('#about-toggle').click(function(){
 
      TweenMax.to($('#about'),0.5,{
           rotationY:180,
-          left: '49.5%',
+          left: '50.5%',
           top: '1.75%',
           fontSize: '3rem',
           ease:Power1.easeOut
