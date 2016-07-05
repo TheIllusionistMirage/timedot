@@ -20524,19 +20524,11 @@
 			return React.createElement(
 				"div",
 				{ id: "about" },
-				React.createElement("a", { href: "https://twitter.com/i_ianc", target: "_blank", id: "twitter" }),
-				React.createElement("a", { href: "https://github.com/IanCarrasco", target: "_blank", id: "github" }),
 				React.createElement(
 					"span",
-					{ id: "madeby" },
-					"Made by:  ",
-					React.createElement(
-						"a",
-						{ id: "username", target: "_blank", href: "https://iancarrasco.github.io" },
-						"Ian Carrasco"
-					)
-				),
-				React.createElement("span", { id: "problems" })
+					{ id: "about-toggle" },
+					"About"
+				)
 			);
 		}
 	});
