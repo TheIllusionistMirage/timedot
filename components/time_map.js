@@ -98,6 +98,7 @@ $("#dn").change(function() {
         timeRefresh();
 
 });
+
 $('#fullscreen-toggle').click(function () {
      document.getElementById('about').style.opacity = 1;
      width = $(window).width();
@@ -287,6 +288,39 @@ $('#fullscreen-toggle').click(function () {
 
 
      }
+});
+
+$('#about-toggle').click(function(){
+     TweenMax.to($('#react-container'),1,{
+          rotationY:180,
+          ease:Power1.easeOut
+     });
+     TweenMax.to($('#header'),1,{
+          opacity:0,
+          ease:Power1.easeOut
+     });
+     TweenMax.to($('#info'),0.5,{
+          opacity:0,
+          ease:Power1.easeOut
+     });
+     TweenMax.to($('#toggle'),0.5,{
+          opacity:0,
+          ease:Power1.easeOut
+     });
+     TweenMax.to($('#fullscreen-toggle'),0.5,{
+          top: '3%',
+          left: '97%',
+          rotation:270,
+          ease:Power1.easeOut
+     });
+
+     TweenMax.to($('#about'),0.5,{
+          rotationY:180,
+          left: '49.5%',
+          top: '1.75%',
+          fontSize: '3rem',
+          ease:Power1.easeOut
+     });
 });
 /*
 The Project Gutenberg EBook of Moby Dick; or The Whale, by Herman Melville

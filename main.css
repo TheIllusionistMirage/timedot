@@ -6,6 +6,7 @@ html{
 body{
 	overflow: hidden !important;
 	height: 100%;
+	background-color: #1D1F1F !important;
 }
 /*FONT FAMILIES*/
 @font-face{
@@ -120,56 +121,8 @@ body{
 	white-space: nowrap;
 	opacity: 0;
 }
-#username{
-	color:#FFF;
-	font-weight: 300;
-	text-decoration: underline;
-
-}
-#username:hover{
-	color:#C2524E;
-}
-#madeby{
-	position: fixed;
-	top:93%;
-	left:45.5%;
-	font-size:2rem;
-}
-#twitter{
-    background-image: url('./images/twitter-512.png');
-    width: 32px;
-    height: 32px;
-    z-index: 100;
-    position: fixed;
-    left: 48%;
-    top: 96%;
-    object-fit: fill;
-    background-size: 32px 32px;
-    background-repeat: no-repeat;
-    color:#1C2020;
-    cursor: pointer;
-    transition: .2s;
-}
-#twitter:hover{
-	background-image: url('./images/twitter-red.png');
-}
-#github{
-    background-image: url('./images/github.png');
-    width: 48px;
-    height: 48px;
-    z-index: 100;
-    position: fixed;
-    left: 50%;
-    top: 95%;
-    object-fit: fill;
-    background-size: 48px 48px;
-    background-repeat: no-repeat;
-    color:#1C2020;
-    cursor: pointer;
-    transition: .2s;
-}
-#github:hover{
-	background-image: url('./images/github-red.png');
+#about-toggle{
+	cursor: pointer;
 }
 @media screen and (min-width:768px){
 	#react-container{
