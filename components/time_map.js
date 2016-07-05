@@ -102,7 +102,7 @@ $("#dn").change(function() {
 $('#fullscreen-toggle').click(function () {
      document.getElementById('about').style.opacity = 1;
      
-     if(document.getElementById('about').style.fontSize == '3rem'){
+     if(document.getElementById('about').style.fontSize == '2.8rem'){
           TweenMax.to($('#react-container'),1,{
                rotationY:0,
                ease:Power1.easeOut
@@ -122,7 +122,7 @@ $('#fullscreen-toggle').click(function () {
           TweenMax.to($('#fullscreen-toggle'),0.5,{
                top: '95%',
                left: '25px',
-               rotation:0,
+               rotation:180,
                ease:Power1.easeOut
           });
           TweenMax.to($('#logo'),0.5,{
@@ -133,9 +133,28 @@ $('#fullscreen-toggle').click(function () {
                rotationY:0,
                left: '47%',
                top: '95%',
-               fontSize: '14px',
+               fontSize: '2.5rem',
                ease:Power1.easeOut
           });
+          if(width == 320 || width == 375)
+          {
+               TweenMax.to($('#about'),0.5,{
+                    rotationY:0,
+                    left: '43%',
+                    top: '93%',
+                    fontSize: '2rem',
+                    ease:Power1.easeOut
+               }); 
+          }
+          if(width==414){
+              TweenMax.to($('#about'),0.5,{
+                    rotationY:0,
+                    left: '43%',
+                    top: '93%',
+                    fontSize: '2rem',
+                    ease:Power1.easeOut
+               }); 
+          } 
 
      }
      else{
@@ -266,7 +285,7 @@ function fullscreenMode(width){
                     ease:Power1.easeOut
                }); 
           }
-          else if(width <= 414 && width >360){
+          else if(width <= 435 && width >360){
                TweenMax.to($('#react-container'),0.5,{
                     height:'211px',
                     ease:Power1.easeOut
@@ -359,13 +378,12 @@ $('#about-toggle').click(function(){
           opacity:0,
           ease:Power1.easeOut
      });
-     if(width <= 768){
+     if(width < 768){
 
           TweenMax.to($('#about'),0.5,{
                rotationY:180,
-               left: '42%',
                top: '1.75%',
-               fontSize: '3rem',
+               fontSize: '2.8rem',
                ease:Power1.easeOut
           });
           TweenMax.to($('#fullscreen-toggle'),0.5,{
@@ -378,12 +396,59 @@ $('#about-toggle').click(function(){
      if(width > 768){
           TweenMax.to($('#about'),0.5,{
                rotationY:180,
-               left: '47%',
                top: '1.75%',
-               fontSize: '3rem',
+               fontSize: '2.8rem',
                ease:Power1.easeOut
           });
      }
+     if(width<414){
+          TweenMax.to($('#about'),0.5,{
+               rotationY:180,
+               top: '1.75%',
+               left:'42%',
+               fontSize: '2.8rem',
+               ease:Power1.easeOut
+          });
+     }
+     if(width==435){
+          TweenMax.to($('#about'),0.5,{
+               rotationY:180,
+               top: '1.75%',
+               left:'42%',
+               fontSize: '2.8rem',
+               ease:Power1.easeOut
+          });
+     }
+     if(width==1440){
+          TweenMax.to($('#about'),0.5,{
+               rotationY:180,
+               top: '1.75%',
+               left:'47%',
+               fontSize: '2.8rem',
+               ease:Power1.easeOut
+          });
+     }
+     if(width==768){
+          TweenMax.to($('#about'),0.5,{
+               rotationY:180,
+               top: '1.75%',
+               left:'47.75%',
+               fontSize: '2.8rem',
+               ease:Power1.easeOut
+          });
+
+     }
+     if(width==1280){
+          TweenMax.to($('#about'),0.5,{
+               rotationY:180,
+               top: '1.75%',
+               left:'47.75%',
+               fontSize: '2.8rem',
+               ease:Power1.easeOut
+          });
+
+     }
+
 });
 
 /*
