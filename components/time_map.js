@@ -105,10 +105,15 @@ $("#dn").change(function() {
 
 $('#fullscreen-toggle').click(function () {
      document.getElementById('about').style.opacity = 1;
-     
+     document.getElementById('about-content').style.display = 'none';
      if(document.getElementById('about').style.fontSize == '2.8rem'){
           TweenMax.to($('#react-container'),1,{
                rotationY:0,
+               ease:Power1.easeOut
+          });
+          TweenMax.to($('#about-content'),0.5,{
+               opacity:0,
+               display:'none',
                ease:Power1.easeOut
           });
           TweenMax.to($('#header'),1,{
@@ -154,6 +159,15 @@ $('#fullscreen-toggle').click(function () {
               TweenMax.to($('#about'),0.5,{
                     rotationY:0,
                     left: '43%',
+                    top: '93%',
+                    fontSize: '2rem',
+                    ease:Power1.easeOut
+               }); 
+          } 
+          if(width==435){
+              TweenMax.to($('#about'),0.5,{
+                    rotationY:0,
+                    left: '44%',
                     top: '93%',
                     fontSize: '2rem',
                     ease:Power1.easeOut
@@ -364,7 +378,12 @@ function fullscreenMode(width){
 
 
 $('#about-toggle').click(function(){
-     
+     TweenMax.to($('#about-content'),1,{
+          rotationY:180,
+          opacity:1,
+          display:'block',
+          ease:Power1.easeOut
+     });
      TweenMax.to($('#react-container'),1,{
           rotationY:180,
           ease:Power1.easeOut
@@ -22684,6 +22703,8 @@ $(window).resize(function(){
      TweenMax.set("#small-town",{clearProps:"all"});
      TweenMax.set("#info",{clearProps:"all"});
      TweenMax.set("#about",{clearProps:"all"});
+     TweenMax.set("#about-content",{clearProps:"all"});
+     TweenMax.set("#about-content",{clearProps:"all"});
 });
 
 

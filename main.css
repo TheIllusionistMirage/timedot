@@ -125,10 +125,67 @@ body{
 }
 #about-toggle{
 	cursor: pointer;
+	
+}
+#about-content{
+	opacity: 0;
+}
+#developed{
+	position: relative;
+	margin-top: -367px;
+	font-size: 1.8rem;
+	
+}
+#ian{
+	color:#FFF;
+	text-decoration: underline;
+	transition: .3s;
+}
+#ian:hover{
+	color:#C2524E;
+}
+#twitter{
+	position: fixed;
+	width:36px;
+	height:36px;
+	left:47%;
+	background-image: url('./images/twitter-512.png');
+	background-size: 36px 36px;
+	background-repeat: no-repeat;
+	display: block;
+	opacity:1;
+	transition: .3s;
+}
+#twitter:hover{
+	background-image: url('./images/twitter-red.png');
+
+}
+#github{
+	position: fixed;
+	width:48px;
+	height:48px;
+	left:50%;
+	margin-top: -6px;
+	background-image: url('./images/github.png');
+	background-size: 48px 48px;
+	background-repeat: no-repeat;
+	display: block;
+	opacity:1;
+	transition: .3s;
+}
+#github:hover{
+	background-image: url('./images/github-red.png');
 }
 @media screen and (min-width:768px){
 	#react-container{
 		height: 130px;
+	}
+	#developed{
+		position: relative;
+		margin-top: -367px;
+		opacity: 1;
+		font-size: 2.5rem;
+	
 	}
 	#time{
 		display: inline;
@@ -206,9 +263,7 @@ body{
 	#react-container{
 		height: 200px;
 	}
-	#about{
-
-	}
+	
 	#time{
 		display: inline;
 	    font-size: 5.5rem;
@@ -316,8 +371,14 @@ body{
 }
 @media screen and (width:435px){
 	#about{
-		left:46%;
+		left:44%;
 		top:94%;
+	}
+	#developed{
+		margin-top: -130px;
+	}
+	#twitter{
+		left:39%;
 	}
 
 }
