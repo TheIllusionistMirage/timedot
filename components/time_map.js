@@ -105,7 +105,7 @@ $("#dn").change(function() {
 
 $('#fullscreen-toggle').click(function () {
      document.getElementById('about').style.opacity = 1;
-     document.getElementById('about-content').style.display = 'none';
+     
      if(document.getElementById('about').style.fontSize == '2.8rem'){
           TweenMax.to($('#react-container'),1,{
                rotationY:0,
