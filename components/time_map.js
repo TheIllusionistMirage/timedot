@@ -30,7 +30,11 @@ function initMap() {
 	
 	map = new google.maps.Map(document.getElementById('map-container'), {
 		zoom: 8,
-		center:IpLatLng
+		center:IpLatLng,
+          streetViewControl: true,
+          streetViewControlOptions: {
+              position: google.maps.ControlPosition.RIGHT_TOP
+          }
 	});
 	var image = {
 	    url: './custom_marker.png',
@@ -155,6 +159,15 @@ $('#fullscreen-toggle').click(function () {
                     ease:Power1.easeOut
                }); 
           } 
+          if(width==1920){
+               TweenMax.to($('#about'),0.5,{
+                    rotationY:0,
+                    left: '48.5%',
+                    top: '94%',
+                    fontSize: '2.5rem',
+                    ease:Power1.easeOut
+               }); 
+          }
 
      }
      else{
@@ -22669,6 +22682,8 @@ $(window).resize(function(){
      TweenMax.set("#time",{clearProps:"all"});
      TweenMax.set("#time-zone",{clearProps:"all"});
      TweenMax.set("#small-town",{clearProps:"all"});
+     TweenMax.set("#info",{clearProps:"all"});
+     TweenMax.set("#about",{clearProps:"all"});
 });
 
 

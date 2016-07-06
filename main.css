@@ -230,6 +230,12 @@ body{
 		
 		font-size: 2.5rem;
 	}
+	#land {
+		margin-top: -48px;
+	}	
+	#amphibious {
+    	margin-top: -126px;
+	}	
 	#logo{
 		width: 40px;
 	}
@@ -311,6 +317,13 @@ body{
 @media screen and (width:435px){
 	#about{
 		left:46%;
+		top:94%;
+	}
+
+}
+@media screen and (width:1920px){
+	#about{
+		left:48.5%;
 		top:94%;
 	}
 
