@@ -20523,11 +20523,31 @@
 		render: function render() {
 			return React.createElement(
 				"div",
-				{ id: "about" },
+				null,
 				React.createElement(
-					"span",
-					{ id: "about-toggle" },
-					"About"
+					"div",
+					{ id: "about" },
+					React.createElement(
+						"span",
+						{ id: "about-toggle" },
+						"About"
+					)
+				),
+				React.createElement(
+					"div",
+					{ id: "about-content" },
+					React.createElement(
+						"h1",
+						{ id: "developed", className: "text-center" },
+						"Developed By: ",
+						React.createElement(
+							"a",
+							{ id: "ian", href: "https://iancarrasco.github.io" },
+							"Ian Carrasco"
+						)
+					),
+					React.createElement("a", { href: "https://twitter.com/i_ianc", target: "_blank", id: "twitter" }),
+					React.createElement("a", { href: "https://github.com/IanCarrasco", target: "_blank", id: "github" })
 				)
 			);
 		}
