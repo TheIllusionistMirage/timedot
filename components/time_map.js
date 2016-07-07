@@ -164,7 +164,7 @@ $('#fullscreen-toggle').click(function () {
                     ease:Power1.easeOut
                }); 
           } 
-          if(width==435){
+          if(width<=435){
               TweenMax.to($('#about'),0.5,{
                     rotationY:0,
                     left: '44%',
