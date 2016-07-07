@@ -20415,14 +20415,17 @@
 				"div",
 				null,
 				React.createElement(
-					"h1",
-					{ "data-step": "1", "data-intro": "Welcome to Time Dot!", id: "header" },
-					"Time Dot"
+					"div",
+					{ "data-step": "4", "data-intro": "Click on the Logo to re-center the Dot.", id: "image-center" },
+					React.createElement(
+						"h1",
+						{ id: "header" },
+						"Time Dot"
+					),
+					React.createElement("img", { id: "logo", src: "custom_marker.svg" })
 				),
-				React.createElement("img", { "data-step": "3", "data-intro": "Click on the Logo to re-center the Dot.", id: "logo", src: "custom_marker.svg" }),
-				React.createElement("div", { id: "image-center" }),
 				React.createElement("div", { id: "fullscreen-wrapper" }),
-				React.createElement("span", _defineProperty({ "data-step": "4", "data-intro": "Click on the arrow to toggle between views.", id: "fullscreenTrigger", className: "glyphicon glyphicon-chevron-down" }, "id", "fullscreen-toggle"))
+				React.createElement("span", _defineProperty({ "data-step": "5", "data-intro": "Click on the arrow to toggle between views.", id: "fullscreenTrigger", className: "glyphicon glyphicon-chevron-down" }, "id", "fullscreen-toggle"))
 			);
 		}
 	});
@@ -20469,7 +20472,7 @@
 				null,
 				React.createElement(
 					"div",
-					{ id: "toggle", "data-step": "2", "data-intro": "Switch between 12HR and 24HR time formats." },
+					{ id: "toggle", "data-step": "3", "data-intro": "Switch between 12HR and 24HR time formats." },
 					React.createElement(
 						"label",
 						{ "for": "dn", id: "toggle-label", className: "pull-right" },
