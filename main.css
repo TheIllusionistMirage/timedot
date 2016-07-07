@@ -122,8 +122,8 @@ body{
 }
 #about{
 	position: fixed;
-	left:50%;
 	top:95%;
+	left:48%;
 	white-space: nowrap;
 	opacity: 0;
 	text-decoration: underline;
@@ -257,7 +257,7 @@ body{
 		left:52%;
 	}
 	#about{
-		left:42.75%;
+		left:44.75%;
 		top:94%;
 
 	}
@@ -386,6 +386,13 @@ body{
 	}
 	#twitter{
 		left:39%;
+	}
+
+}
+@media screen and (max-width:1920px) and (min-width: 769){
+	#about{
+		left:48%;
+		top:94%;
 	}
 
 }
