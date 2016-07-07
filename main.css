@@ -92,6 +92,9 @@ body{
 #toggle-label{
 	font-size: 2rem;
 }
+#toggle-label:active{
+	color:#C2524E;
+}
 #image-center{
     width: 122px;
     height: 36px;
