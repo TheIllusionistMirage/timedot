@@ -20547,7 +20547,7 @@
 						)
 					),
 					React.createElement("a", { href: "https://twitter.com/i_ianc", target: "_blank", id: "twitter" }),
-					React.createElement("a", { href: "https://github.com/IanCarrasco", target: "_blank", id: "github" })
+					React.createElement("a", { href: "https://github.com/IanCarrasco/time_dot", target: "_blank", id: "github" })
 				)
 			);
 		}
