@@ -6,17 +6,26 @@
 	<link rel="icon" href="./custom_marker.png">
 	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
 	<link href="./main.css" rel="stylesheet">
-
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.4/TweenMax.min.js"></script>
 	<script src="./jquery.min.js"></script>
+	<link rel="stylesheet" href="introjs.css">
+	<link rel="stylesheet" href="introjs-dark.css">
+	<script type="text/javascript" src="intro.min.js"></script>
+
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAlotwNX-T8jCdD58xZqtxuZ_slpnREVac"></script>
 	<script type="text/javascript" src="https://l2.io/ip.js?var=ip"></script>	
 </head>
 <body>
 	<div class="container-fluid" id="react-container"></div>
 	<div class="container-fluid" id='map-container' style="height:100%;width:100%"></div>
-
 	<script src="./dist/bundle.js"></script>
 	<script type="text/javascript" src="./components/time_map.js"></script>
+	<script>
+		  $(window).ready(function() {
+		    introJs().start();
+		  });
+	</script>
+
+
 </body>
 </html>
