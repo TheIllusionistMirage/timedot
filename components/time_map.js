@@ -105,7 +105,7 @@ $("#dn").change(function() {
 
 $('#fullscreen-toggle').click(function () {
      document.getElementById('about').style.opacity = 1;
-     
+     $('#about-content').hide();
      if(document.getElementById('about').style.fontSize == '2.8rem'){
           TweenMax.to($('#react-container'),1,{
                rotationY:0,
@@ -378,6 +378,7 @@ function fullscreenMode(width){
 
 
 $('#about-toggle').click(function(){
+     $('#about-content').show();
      TweenMax.to($('#about-content'),1,{
           rotationY:180,
           opacity:1,
@@ -402,7 +403,7 @@ $('#about-toggle').click(function(){
      });
      TweenMax.to($('#fullscreen-toggle'),0.5,{
           top: '4%',
-          left: '97%',
+          left: '95%',
           rotation:270,
           ease:Power1.easeOut
      });
@@ -433,10 +434,17 @@ $('#about-toggle').click(function(){
                ease:Power1.easeOut
           });
      }
-     if(width<414){
+     if(width<=414){
           TweenMax.to($('#about'),0.5,{
                rotationY:180,
                top: '1.75%',
+               left:'42%',
+               fontSize: '2.8rem',
+               ease:Power1.easeOut
+          });
+          TweenMax.to($('#about-content'),0.5,{
+               rotationY:180,
+               marginTop:'50%',
                left:'42%',
                fontSize: '2.8rem',
                ease:Power1.easeOut
