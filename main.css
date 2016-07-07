@@ -85,7 +85,7 @@ body{
     position: fixed;
     top: 35px;
     right:30px;
-    margin-top: 10px;
+    margin-top: 14px;
     margin-left: 5px;
     z-index: 99;
 }
@@ -193,6 +193,9 @@ body{
 		opacity: 1;
 		font-size: 2.5rem;
 	
+	}
+	#twitter{
+		left:45%;
 	}
 	#time{
 		display: inline;
@@ -372,7 +375,7 @@ body{
 		left:53%;
 	}
 	#toggle{
-		margin-top: 7px;
+		margin-top: 14px;
 	}
 
 }
@@ -437,6 +440,15 @@ body{
 		margin-top: 31px;
 	}
 }
-
+@media screen and(max-width:768){
+	#about{
+		left: 43%;
+	}
+}
+@media screen and(min-width:768) and (max-width:804){
+	#about{
+		margin-top:14px;
+	}
+}
 
 
