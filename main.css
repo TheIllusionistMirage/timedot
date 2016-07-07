@@ -96,11 +96,11 @@ body{
 	color:#C2524E;
 }
 #image-center{
-    width: 122px;
+    width: 124px;
     height: 36px;
     position: fixed;
     top: 2%;
-    left: 1%;
+    left: 15px;
     cursor: pointer;
     z-index: 999;
 }

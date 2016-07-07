@@ -8,7 +8,7 @@ var About = require('./components/About');
 var APP = React.createClass({
 	render(){
 		return(
-			<div className="container-fluid">
+			<div  className="container-fluid">
 				<Time></Time>
 				<Header></Header>
 				<Toggle></Toggle>

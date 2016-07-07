@@ -1,0 +1,1360 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"border",
+				"border"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"tran",
+				"transition"
+			],
+			[
+				"tr",
+				"transform"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"font",
+				"fontSize	Style CSS"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"objec",
+				"object-fit"
+			],
+			[
+				"no",
+				"nowrap"
+			],
+			[
+				"cur",
+				"cursor"
+			],
+			[
+				"marg",
+				"marginBottom	Style CSS"
+			],
+			[
+				"user",
+				"username	URLUtils"
+			],
+			[
+				"inlin",
+				"inline"
+			],
+			[
+				"he",
+				"height	Style CSS"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"inner",
+				"innerWidth	Window"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"max",
+				"max-height"
+			],
+			[
+				"in",
+				"inline"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"im",
+				"important"
+			],
+			[
+				"marker_l",
+				"marker_lng"
+			],
+			[
+				"marker_lat",
+				"marker_latlng"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"func",
+				"function without name"
+			],
+			[
+				"marker_",
+				"marker_lat"
+			],
+			[
+				"tra",
+				"transition"
+			],
+			[
+				"drag",
+				"dragend	Event"
+			],
+			[
+				"response",
+				"responseType	XMLHttpRequest"
+			],
+			[
+				"toggle-swt",
+				"toggle-switch-24"
+			],
+			[
+				"toggle-s",
+				"toggle-switch-24"
+			],
+			[
+				"getel",
+				"getElementById(id)	Element"
+			],
+			[
+				"getEleme",
+				"getElementById(id)	Element"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"trans",
+				"transform"
+			],
+			[
+				"font-st",
+				"font-style"
+			],
+			[
+				"respo",
+				"responseType	XMLHttpRequest"
+			],
+			[
+				"resu",
+				"result	FileReader"
+			],
+			[
+				"getTime",
+				"getTimezoneOffset()	Date"
+			],
+			[
+				"getElem",
+				"getElementById(id)	Element"
+			],
+			[
+				"class",
+				"className	Element"
+			],
+			[
+				"HtmlWebpackPlug",
+				"HtmlWebpackPluginConfig"
+			],
+			[
+				"on",
+				"onSubmit"
+			],
+			[
+				"title",
+				"title-name"
+			],
+			[
+				"form",
+				"form-control"
+			],
+			[
+				"react",
+				"ReactDOM"
+			],
+			[
+				"Reac",
+				"ReactDOM"
+			],
+			[
+				"Rou",
+				"RouteHandler"
+			],
+			[
+				"re",
+				"require"
+			],
+			[
+				"rou",
+				"Route"
+			],
+			[
+				"discon",
+				"disconnected"
+			],
+			[
+				"co",
+				"connections"
+			],
+			[
+				"s",
+				"span"
+			],
+			[
+				"sea",
+				"searchValue"
+			],
+			[
+				"sear",
+				"search"
+			],
+			[
+				"twee",
+				"tweet-container"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"tweet",
+				"tweetvis"
+			],
+			[
+				"mess",
+				"messageArea"
+			],
+			[
+				"socke",
+				"socket"
+			],
+			[
+				"sock",
+				"socket"
+			],
+			[
+				"conn",
+				"connections"
+			],
+			[
+				"soc",
+				"socket"
+			],
+			[
+				"segmen",
+				"segments"
+			],
+			[
+				"seg",
+				"segment"
+			],
+			[
+				"sin",
+				"sine"
+			],
+			[
+				"pl",
+				"playing"
+			],
+			[
+				"c",
+				"console-search"
+			],
+			[
+				"alig",
+				"align-self"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"cube",
+				"cubes"
+			],
+			[
+				"cu",
+				"cube_array"
+			],
+			[
+				"item",
+				"item1"
+			],
+			[
+				"cube_pos",
+				"cube_pos_x"
+			],
+			[
+				"cub",
+				"cube_pos_x"
+			],
+			[
+				"ligh",
+				"light"
+			],
+			[
+				"ge",
+				"geometry"
+			],
+			[
+				"bo",
+				"box_size"
+			],
+			[
+				"b",
+				"box_size"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"ro",
+				"rotation"
+			],
+			[
+				"rotati",
+				"rotation_x"
+			],
+			[
+				"x",
+				"x"
+			],
+			[
+				"light",
+				"light_pos_y"
+			],
+			[
+				"li",
+				"light_pos_y"
+			],
+			[
+				"Rot",
+				"Rotation_Y"
+			],
+			[
+				"rot",
+				"rotation_x"
+			],
+			[
+				"Ro",
+				"Rotation_X"
+			],
+			[
+				"r",
+				"rotationSpeed"
+			],
+			[
+				"rota",
+				"rotationSpeed"
+			],
+			[
+				"para",
+				"parameters"
+			],
+			[
+				"box",
+				"box_geom"
+			],
+			[
+				"to",
+				"toggle"
+			],
+			[
+				"key",
+				"key_listener"
+			],
+			[
+				"image",
+				"imageData_1"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"for",
+				"for	for (…) {…}"
+			],
+			[
+				"Login",
+				"LoginTwitter"
+			],
+			[
+				"Auth",
+				"Auth_screen"
+			],
+			[
+				"widh",
+				"width"
+			],
+			[
+				"color",
+				"background-color"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"rand",
+				"rand10000"
+			],
+			[
+				"new",
+				"newcolor"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "main.css",
+			"settings":
+			{
+				"buffer_size": 5749,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "components/time_map.js",
+			"settings":
+			{
+				"buffer_size": 1252327,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "main.jsx",
+			"settings":
+			{
+				"buffer_size": 562,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "components/About.js",
+			"settings":
+			{
+				"buffer_size": 547,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "components/Time.js",
+			"settings":
+			{
+				"buffer_size": 492,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "components/Header.js",
+			"settings":
+			{
+				"buffer_size": 586,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "components/Toggle.js",
+			"settings":
+			{
+				"buffer_size": 372,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "components/Water.js",
+			"settings":
+			{
+				"buffer_size": 333,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 1508,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "google-analytics.js",
+			"settings":
+			{
+				"buffer_size": 395,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "introjs.css",
+			"settings":
+			{
+				"buffer_size": 11618,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "introjs-dark.css",
+			"settings":
+			{
+				"buffer_size": 5117,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "introjs.min.css",
+			"settings":
+			{
+				"buffer_size": 9342,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"javasc",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"pac",
+				"Package Control: Remove Package"
+			],
+			[
+				"d",
+				"Package Control: Discover Packages"
+			],
+			[
+				"col",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"color",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"enable",
+				"Package Control: Enable Package"
+			],
+			[
+				"dia",
+				"Package Control: Disable Package"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 432.0
+	},
+	"console":
+	{
+		"height": 153.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Ian/Documents/GitHub/timedot/images"
+	],
+	"file_history":
+	[
+		"/C/Users/Ian/Desktop/stylesheet.css",
+		"/C/Users/Ian/Documents/GitHub/timedot/time_map.js",
+		"/C/Users/Ian/Desktop/Web and App Dev/time_dot/main.css",
+		"/C/Users/Ian/Desktop/Web and App Dev/time_dot/main.jsx",
+		"/C/Users/Ian/Desktop/Web and App Dev/time_dot/components/Header.js",
+		"/C/Users/Ian/Desktop/Web and App Dev/time_dot/components/Time.js",
+		"/C/Users/Ian/Desktop/Web and App Dev/time_dot/components/time_map.js",
+		"/C/Users/Ian/Documents/GitHub/timedot/components/time_map.js",
+		"/C/Users/Ian/Desktop/Web and App Dev/time_dot/todo",
+		"/C/Users/Ian/Desktop/Web and App Dev/time_dot/index.html",
+		"/C/Users/Ian/Desktop/Web and App Dev/time_dot/package.json",
+		"/C/Users/Ian/Desktop/Web and App Dev/time_dot/webpack.config.js",
+		"/C/Users/Ian/Desktop/Web and App Dev/time_dot/components/Toggle.js",
+		"/C/Users/Ian/Desktop/Web and App Dev/time_dot/namecheappassword",
+		"/C/Users/Ian/Documents/GitHub/timedot/index.html",
+		"/C/Users/Ian/Downloads/time_map.js",
+		"/C/Users/Ian/Desktop/Web and App Dev/time_dot/time_map.js",
+		"/C/Users/Ian/Desktop/Web and App Dev/time_dot/custom_marker.svg",
+		"/F/Dev/time_dot/package.json",
+		"/C/Users/Ian/Desktop/Web and App Dev/point_time/index.html",
+		"/C/Users/Ian/Desktop/Web and App Dev/point_time/webpack.config.js",
+		"/C/Users/Ian/Desktop/Web and App Dev/point_time/todo",
+		"/C/Users/Ian/Desktop/Web and App Dev/point_time/main.css",
+		"/C/Users/Ian/Desktop/Web and App Dev/point_time/components/Location.js",
+		"/C/Users/Ian/Desktop/Web and App Dev/point_time/package.json",
+		"/C/Users/Ian/Desktop/Web and App Dev/point_time/main.jsx",
+		"/C/Users/Ian/Desktop/Web and App Dev/point_time/components/Header.js",
+		"/C/Users/Ian/Desktop/Web and App Dev/point_time/components/Map.js",
+		"/C/Users/Ian/Desktop/Web and App Dev/Tutorials/github-battle/webpack.config.js",
+		"/C/Users/Ian/Desktop/Web and App Dev/Tutorials/Polling App/start/webpack.config.js",
+		"/C/Users/Ian/Desktop/Web and App Dev/react-boilerplate/app/containers/App/index.js",
+		"/C/Users/Ian/Desktop/Web and App Dev/Tutorials/github-battle/node_modules/fbjs/lib/Map.js",
+		"/C/Users/Ian/Desktop/Web and App Dev/point_time/components/Country.js",
+		"/C/Users/Ian/Desktop/Web and App Dev/point_time/components/Location",
+		"/C/Users/Ian/Desktop/Web and App Dev/Arrow Game(Phaser)/node_modules/phaser/src/time/Time.js",
+		"/C/Users/Ian/Desktop/Web and App Dev/point_time/components/Time.js",
+		"/C/Users/Ian/Desktop/Web and App Dev/point_time/components/country.js",
+		"/C/Users/Ian/Desktop/Web and App Dev/point_time/components/AMPM24.js",
+		"/C/Users/Ian/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Ian/Desktop/Web and App Dev/time_mark/node_modules/bootstrap/less/scaffolding.less",
+		"/C/Users/Ian/Desktop/Web and App Dev/time_mark/node_modules/bootstrap/dist/css/bootstrap.css",
+		"/C/Users/Ian/Desktop/Web and App Dev/time_mark/node_modules/bootstrap/dist/css/bootstrap.min.css",
+		"/C/Users/Ian/Desktop/Web and App Dev/time_mark/node_modules/bootstrap/dist/css/bootstrap.min.css.map",
+		"/C/Users/Ian/Desktop/Web and App Dev/time_mark/todo",
+		"/C/Users/Ian/Desktop/Web and App Dev/time_mark/webpack.config.js",
+		"/C/Users/Ian/Desktop/Web and App Dev/time_mark/components/Time.js",
+		"/C/Users/Ian/Desktop/Web and App Dev/time_mark/components/Map.js",
+		"/C/Users/Ian/Desktop/Web and App Dev/time_mark/components/reverse_geocode.js",
+		"/C/Users/Ian/Desktop/Web and App Dev/time_mark/components/Header.js",
+		"/C/Users/Ian/Desktop/Web and App Dev/time_mark/components/Location.js",
+		"/C/Users/Ian/Desktop/Web and App Dev/time_mark/package.json",
+		"/C/Users/Ian/Desktop/Web and App Dev/time_mark/index.html",
+		"/C/Users/Ian/Desktop/Web and App Dev/time_mark/components/LatLng.js",
+		"/C/Users/Ian/Desktop/Web and App Dev/time_mark/main.css",
+		"/C/Users/Ian/Desktop/Web and App Dev/time_mark/main.jsx",
+		"/C/Users/Ian/Desktop/Web and App Dev/time_mark/components/MapRenderer.js",
+		"/C/Users/Ian/Desktop/Web and App Dev/Tutorials/github-battle/app/components/Home.js",
+		"/C/Users/Ian/Desktop/Web and App Dev/Tutorials/github-battle/app/components/Main.js",
+		"/C/Users/Ian/Desktop/Web and App Dev/time_mark/components/gmapsapi.js",
+		"/C/Users/Ian/Desktop/Web and App Dev/time_mark/components/map.js",
+		"/C/Users/Ian/Desktop/Web and App Dev/Tutorials/github-battle/app/containers/PromptContainer.js",
+		"/C/Users/Ian/Desktop/Web and App Dev/Tutorials/Polling App/start/app-server.js",
+		"/C/Users/Ian/Desktop/Web and App Dev/time_mark/app.js",
+		"/C/Users/Ian/Desktop/Web and App Dev/Time-Mark/package.json",
+		"/C/Users/Ian/Desktop/Web and App Dev/Time-Mark/index.html",
+		"/C/Users/Ian/Desktop/Web and App Dev/List/webpack.config.js",
+		"/C/Users/Ian/Desktop/Web and App Dev/Time-Mark/webpack.config.js",
+		"/C/Users/Ian/Desktop/Web and App Dev/Time-Mark/app/index.js",
+		"/C/Users/Ian/Desktop/Web and App Dev/Tutorials/github-battle/app/index.html",
+		"/C/Users/Ian/Desktop/Web and App Dev/Tutorials/github-battle/app/webpack.config.js",
+		"/C/Users/Ian/Desktop/Web and App Dev/List/components/list-header.js",
+		"/C/Users/Ian/Desktop/Web and App Dev/List/package.json",
+		"/C/Users/Ian/Desktop/Web and App Dev/List/main.jsx",
+		"/C/Users/Ian/Desktop/Web and App Dev/List/index.html",
+		"/C/Users/Ian/Desktop/Web and App Dev/IanCarrasco.github.io/index.html",
+		"/C/Users/Ian/Desktop/Web and App Dev/List/main.css",
+		"/C/Users/Ian/Desktop/Web and App Dev/IanCarrasco.github.io/css/pages.css",
+		"/C/Users/Ian/Desktop/Web and App Dev/List/index.hrml",
+		"/C/Users/Ian/Desktop/Web and App Dev/Twittervis/main.js",
+		"/C/Users/Ian/Desktop/Web and App Dev/Twittervis/server.js",
+		"/C/Users/Ian/Desktop/Web and App Dev/Twittervis/index.html",
+		"/C/Users/Ian/Desktop/Web and App Dev/Tutorials/Polling App/start/components/app.js",
+		"/C/Users/Ian/Desktop/Web and App Dev/Arrow Game/game.js",
+		"/C/Users/Ian/Desktop/Web and App Dev/Arrow Game/index.html",
+		"/C/Users/Ian/Desktop/Web and App Dev/Tutorials/iochat/server.js",
+		"/C/Users/Ian/Desktop/Web and App Dev/Tutorials/iochat/index.html",
+		"/C/Users/Ian/Desktop/Web and App Dev/Tutorials/iochat/package.json",
+		"/C/Users/Ian/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/Ian/Desktop/Web and App Dev/Meteor/resolutions/client/resolutions.html",
+		"/C/Users/Ian/Desktop/Web and App Dev/Meteor/resolutions/client/main.html",
+		"/C/Users/Ian/Desktop/Web and App Dev/Meteor/resolutions/.meteor/versions",
+		"/C/Users/Ian/Desktop/Web and App Dev/papertesting/sine.js",
+		"/C/Users/Ian/Desktop/Web and App Dev/papertesting/index.html",
+		"/C/Users/Ian/Documents/Audio/jazz & big band/indigo jam unit/Sepia.mp3",
+		"/C/Users/Ian/Desktop/Web and App Dev/papertesting/paper-full.min.js",
+		"/C/Users/Ian/Desktop/Web and App Dev/papertesting/js.js",
+		"/C/Users/Ian/Desktop/Web and App Dev/papertesting/paper_full_min.js",
+		"/C/Users/Ian/Desktop/THREE.JS DAY BY DAY/DAY 2/index.html",
+		"/C/Users/Ian/Downloads/console_explorer/index.html",
+		"/C/Users/Ian/Downloads/console_explorer/css/standardize.css",
+		"/C/Users/Ian/Desktop/Web and App Dev/Tweet Desk/app/main.js",
+		"/C/Users/Ian/Desktop/React/react-15.0.1/examples/quadratic/example.js",
+		"/C/Users/Ian/Desktop/THREE.JS DAY BY DAY/DAY 2/main.js",
+		"/C/Users/Ian/Downloads/console_explorer/css/index.css",
+		"/C/Users/Ian/Downloads/console_explorer/css/index-grid.css",
+		"/C/Users/Ian/Desktop/Web and App Dev/Console Explorer/main.css",
+		"/D/Setup/SLA.txt",
+		"/C/Users/Ian/Desktop/THREE.JS DAY BY DAY/DAY 2/main.css",
+		"/C/Users/Ian/Desktop/Web and App Dev/Phone-Gap Projects/First App/www/index.html",
+		"/C/Users/Ian/Desktop/Web and App Dev/Wiki/main.js",
+		"/C/Users/Ian/Desktop/Web and App Dev/Wiki/wiki-ajax.js",
+		"/C/Users/Ian/Desktop/THREE.JS DAY BY DAY/DAY 1/main.js",
+		"/C/Users/Ian/Desktop/THREE.JS DAY BY DAY/DAY 1/main.css",
+		"/C/Users/Ian/Desktop/THREE.JS DAY BY DAY/DAY 2/dat.gui.js",
+		"/C/Users/Ian/Desktop/THREE.JS DAY BY DAY/DAY 1/three.min.js",
+		"/C/Users/Ian/Desktop/THREE.JS DAY BY DAY/DAY 2/three.js",
+		"/C/Users/Ian/Desktop/THREE.JS DAY BY DAY/DAY 1/index.html",
+		"/C/Users/Ian/Desktop/THREE.JS DAY BY DAY/DAY 1/three.js",
+		"/C/Users/Ian/Desktop/THREE.JS DAY BY DAY/DAY 1/dat.gui.js",
+		"/C/Users/Ian/Desktop/THREE.JS DAY BY DAY/DAY 1/dat.gui.min.js",
+		"/C/Users/Ian/Desktop/Web and App Dev/Canvas/index.html",
+		"/C/Users/Ian/Desktop/paperjs-v0.9.25/examples/Animated/SpaceUsingShapes.html",
+		"/C/Users/Ian/Desktop/Canvas/package.json",
+		"/C/Users/Ian/Desktop/Canvas/dmauro-Keypress-7f4fbaf/keypress-2.1.3.min.js",
+		"/C/Users/Ian/Desktop/Canvas/main.css",
+		"/C/Users/Ian/Desktop/Canvas/index.html",
+		"/C/Users/Ian/Desktop/Canvas/main.js",
+		"/C/Users/Ian/Desktop/Canvas/keypress_handler.js"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"",
+			"C:\\Users\\Ian\\Desktop\\WebOS Development\\Twitch Unofficial\\trunk\\source",
+			"C:\\Users\\Ian\\Desktop\\Simple Twitch\\trunk,C:\\Users\\Ian\\Desktop\\WebOS Development\\Twitch Unofficial\\trunk",
+			"C:\\Users\\Ian\\Desktop\\Simple Twitch\\trunk"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"font",
+			"text",
+			".",
+			"tooltip",
+			"toolt",
+			"number",
+			"show",
+			"_blank",
+			"#time-zone",
+			"();\n",
+			"'dn'",
+			"toggle",
+			"center",
+			"class",
+			"hit_land",
+			"5",
+			"js",
+			"doop",
+			"var",
+			";\n",
+			"camera_rot",
+			"-20,20",
+			"0,20",
+			"camera_pos",
+			"gui",
+			"	\n",
+			"();",
+			"if(key_listener.simple_combo(\"p\")){\n		audio.style.display=\"block\";\n		audio.play();\n	}	",
+			"hamburger",
+			"6",
+			".js",
+			"181A1B",
+			"(^[^\\s]+)",
+			"^***********\\s",
+			"^******",
+			"nav-wrap",
+			"menu",
+			"source",
+			"model.streamUrl\", to: \".src\"}",
+			"source",
+			"enyo-fit",
+			"font-family",
+			"body",
+			"px",
+			"margin",
+			"moon-small-header",
+			"header",
+			"padding",
+			"paddin",
+			"div",
+			"small",
+			"@moon-pink",
+			"pink",
+			"spotlight",
+			"moon-item-spotlight",
+			"@moon-pink",
+			"spotlight",
+			"search",
+			"@moon-pink",
+			"hover",
+			"font",
+			"caption",
+			"header",
+			"0x555555",
+			"Math",
+			"add_force",
+			"add_force/",
+			"add_force",
+			"Point",
+			"mouse",
+			"callback",
+			"comment"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"className",
+			"land_HO",
+			"cube_rot",
+			"-360,360",
+			"-20,20",
+			"camera_rot",
+			"cam_folder",
+			"@twitch-purple"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"folders":
+	[
+		{
+			"path": "C:\\Users\\Ian\\Documents\\GitHub\\timedot"
+		}
+	],
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "main.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5749,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1681,
+								1681
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1932.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "components/time_map.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1252327,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								12264,
+								12264
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 5,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3657.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "main.jsx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 562,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								29,
+								29
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "components/About.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 547,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								490,
+								490
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "components/Time.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 492,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								101,
+								101
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "components/Header.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 586,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								463,
+								463
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "components/Toggle.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 372,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								169,
+								169
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 43.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "components/Water.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 333,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								118,
+								118
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1508,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								928,
+								928
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "google-analytics.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 395,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								395,
+								395
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "introjs.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 11618,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7338,
+								7338
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 5192.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "introjs-dark.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5117,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1146,
+								1169
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 546.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "introjs.min.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9342,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								138,
+								138
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 57.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 94.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "",
+	"replace":
+	{
+		"height": 58.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 241.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
