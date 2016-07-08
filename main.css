@@ -218,7 +218,6 @@ body{
 	#toggle{
 		top: 35px;
     	right: 30px;
-    	margin-top: 0px;
 	}
 	#fullscreen-toggle{
 		position: fixed;
