@@ -20547,11 +20547,11 @@
 						"Developed By: ",
 						React.createElement(
 							"a",
-							{ id: "ian", href: "https://iancarrasco.github.io" },
+							{ id: "ian", href: "https://twitter.com/i_ianc" },
 							"Ian Carrasco"
 						)
 					),
-					React.createElement("a", { href: "https://twitter.com/i_ianc", target: "_blank", id: "twitter" }),
+					React.createElement("a", { href: "https://twitter.com/time_dot_space", target: "_blank", id: "twitter" }),
 					React.createElement("a", { href: "https://github.com/IanCarrasco/time_dot", target: "_blank", id: "github" })
 				)
 			);
