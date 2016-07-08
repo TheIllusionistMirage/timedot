@@ -377,6 +377,15 @@ body{
 	#toggle{
 		margin-top: 14px;
 	}
+	#developed{
+		margin-top: -250px;
+	}
+	#twitter{
+		left: 31%;
+	}
+	#github{
+		left: 48%;
+	}
 
 }
 @media screen and (width:435px){
