@@ -22695,9 +22695,17 @@ function getTime(lat,lng){
 			document.getElementById('small-town').innerHTML =' ';
 
 			}
+               if(placename === undefined || state === undefined || country === undefined){
+                    if(lng>60 || lng<-60){
+                        document.getElementById('small-town').innerHTML ='Closest Place: The blinding whiteness of the tundra'; 
+
+                    }
+                    
+
+               }else{
 
 			document.getElementById('small-town').innerHTML ='CLOSEST PLACE: '+ placename+', '+state+', '+country;
-
+               }
 		}
 	})
 }
