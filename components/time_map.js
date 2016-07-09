@@ -22690,13 +22690,9 @@ function getTime(lat,lng){
 				var state = data.geonames[0].adminName1;
 				var country = data.geonames[0].countryName;	
 			}
-			catch(err){
-
-			document.getElementById('small-town').innerHTML =' ';
-
-			}
+               finally{
                if(placename === undefined || state === undefined || country === undefined){
-                    if(lng>60 || lng<-60){
+                    if(lng> 70 || lng<-70){
                         document.getElementById('small-town').innerHTML ='Closest Place: The blinding whiteness of the tundra'; 
 
                     }
@@ -22706,6 +22702,7 @@ function getTime(lat,lng){
 
 			document.getElementById('small-town').innerHTML ='CLOSEST PLACE: '+ placename+', '+state+', '+country;
                }
+          }
 		}
 	})
 }

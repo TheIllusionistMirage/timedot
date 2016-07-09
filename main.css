@@ -22,6 +22,9 @@ body{
 	border-bottom: 3px solid #C2524E;
 	height:211px;
 }
+#map-container{
+	background-color: #252929 !important;
+}
 #info{
 	overflow: hidden;
 	opacity: 1;
