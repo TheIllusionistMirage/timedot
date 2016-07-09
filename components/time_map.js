@@ -22695,6 +22695,18 @@ function getTime(lat,lng){
                     if(lng> 70 || lng<-70){
                         document.getElementById('small-town').innerHTML ='Closest Place: The blinding whiteness of the tundra'; 
 
+                    }else{
+                         var choice = Math.floor(Math.random()*2);
+                         if(choice==0){
+                              document.getElementById('small-town').innerHTML ='Closest Place: Nowhere,Themiddleof'; 
+                         }
+                         if(choice==1){
+                              document.getElementById('small-town').innerHTML ='Closest Place: Nothingness'; 
+                         }
+                         if(choice==2){
+                              document.getElementById('small-town').innerHTML ='Closest Place: Desolation of the Soul'; 
+                         }
+
                     }
                     
 

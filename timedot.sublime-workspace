@@ -4,16 +4,24 @@
 		"selected_items":
 		[
 			[
+				"font-",
+				"font-family"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
 				"back",
 				"background-color"
 			],
 			[
 				"border",
 				"border"
-			],
-			[
-				"margin",
-				"margin-bottom"
 			],
 			[
 				"tran",
@@ -30,10 +38,6 @@
 			[
 				"bac",
 				"background"
-			],
-			[
-				"font",
-				"fontSize	Style CSS"
 			],
 			[
 				"text",
@@ -435,15 +439,7 @@
 			"file": "main.css",
 			"settings":
 			{
-				"buffer_size": 5749,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "components/time_map.js",
-			"settings":
-			{
-				"buffer_size": 1252327,
+				"buffer_size": 6183,
 				"line_ending": "Windows"
 			}
 		},
@@ -451,7 +447,15 @@
 			"file": "main.jsx",
 			"settings":
 			{
-				"buffer_size": 562,
+				"buffer_size": 563,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "components/time_map.js",
+			"settings":
+			{
+				"buffer_size": 1252632,
 				"line_ending": "Windows"
 			}
 		},
@@ -459,7 +463,7 @@
 			"file": "components/About.js",
 			"settings":
 			{
-				"buffer_size": 547,
+				"buffer_size": 552,
 				"line_ending": "Windows"
 			}
 		},
@@ -475,7 +479,7 @@
 			"file": "components/Header.js",
 			"settings":
 			{
-				"buffer_size": 586,
+				"buffer_size": 549,
 				"line_ending": "Windows"
 			}
 		},
@@ -499,7 +503,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 1508,
+				"buffer_size": 1577,
 				"line_ending": "Windows"
 			}
 		},
@@ -515,7 +519,7 @@
 			"file": "introjs.css",
 			"settings":
 			{
-				"buffer_size": 11618,
+				"buffer_size": 11633,
 				"line_ending": "Unix"
 			}
 		},
@@ -523,7 +527,7 @@
 			"file": "introjs-dark.css",
 			"settings":
 			{
-				"buffer_size": 5117,
+				"buffer_size": 5273,
 				"line_ending": "Unix"
 			}
 		},
@@ -633,10 +637,12 @@
 	},
 	"expanded_folders":
 	[
+		"/C/Users/Ian/Documents/GitHub/timedot",
 		"/C/Users/Ian/Documents/GitHub/timedot/images"
 	],
 	"file_history":
 	[
+		"/C/Users/Ian/Desktop/P5 Js/80s Graphic Sketch/index.html",
 		"/C/Users/Ian/Desktop/stylesheet.css",
 		"/C/Users/Ian/Documents/GitHub/timedot/time_map.js",
 		"/C/Users/Ian/Desktop/Web and App Dev/time_dot/main.css",
@@ -763,8 +769,7 @@
 		"/C/Users/Ian/Desktop/Canvas/dmauro-Keypress-7f4fbaf/keypress-2.1.3.min.js",
 		"/C/Users/Ian/Desktop/Canvas/main.css",
 		"/C/Users/Ian/Desktop/Canvas/index.html",
-		"/C/Users/Ian/Desktop/Canvas/main.js",
-		"/C/Users/Ian/Desktop/Canvas/keypress_handler.js"
+		"/C/Users/Ian/Desktop/Canvas/main.js"
 	],
 	"find":
 	{
@@ -786,6 +791,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"min-width:768",
+			"image",
 			"font",
 			"text",
 			".",
@@ -889,7 +896,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -898,77 +905,50 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5749,
+						"buffer_size": 6183,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1681,
-								1681
+								520,
+								520
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax"
+							"color_scheme": "Packages/User/Color Highlighter/themes/Oceanic_Next.tmTheme",
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1932.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "components/time_map.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1252327,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								12264,
-								12264
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 5,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 3657.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
 					"file": "main.jsx",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 562,
+						"buffer_size": 563,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								29,
-								29
+								343,
+								343
 							]
 						],
 						"settings":
 						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Oceanic_Next.tmTheme",
 							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
 							"translate_tabs_to_spaces": false
 						},
@@ -976,7 +956,38 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "components/time_map.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1252632,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1251855,
+								1251855
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Oceanic_Next.tmTheme",
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 5,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 521475.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -985,27 +996,29 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 547,
+						"buffer_size": 552,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								490,
-								490
+								368,
+								368
 							]
 						],
 						"settings":
 						{
 							"auto_name": "",
-							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
+							"color_scheme": "Packages/User/Color Highlighter/themes/Oceanic_Next.tmTheme",
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -1027,6 +1040,7 @@
 						],
 						"settings":
 						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Oceanic_Next.tmTheme",
 							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
 							"translate_tabs_to_spaces": false
 						},
@@ -1034,7 +1048,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
@@ -1043,26 +1057,28 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 586,
+						"buffer_size": 549,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								463,
-								463
+								520,
+								520
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
+							"color_scheme": "Packages/User/Color Highlighter/themes/Oceanic_Next.tmTheme",
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
@@ -1078,12 +1094,13 @@
 						"selection":
 						[
 							[
-								169,
-								169
+								303,
+								303
 							]
 						],
 						"settings":
 						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Oceanic_Next.tmTheme",
 							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
 							"translate_tabs_to_spaces": false
 						},
@@ -1113,6 +1130,7 @@
 						],
 						"settings":
 						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Oceanic_Next.tmTheme",
 							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
 							"translate_tabs_to_spaces": false
 						},
@@ -1129,27 +1147,28 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1508,
+						"buffer_size": 1577,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								928,
-								928
+								1216,
+								1216
 							]
 						],
 						"settings":
 						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Oceanic_Next.tmTheme",
 							"syntax": "Packages/HTML/HTML.sublime-syntax",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 391.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
@@ -1171,13 +1190,14 @@
 						],
 						"settings":
 						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Oceanic_Next.tmTheme",
 							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
@@ -1186,28 +1206,29 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 11618,
+						"buffer_size": 11633,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								7338,
-								7338
+								5829,
+								5829
 							]
 						],
 						"settings":
 						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Oceanic_Next.tmTheme",
 							"syntax": "Packages/CSS/CSS.sublime-syntax",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 5192.0,
+						"translation.y": 4554.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 9,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
@@ -1216,28 +1237,29 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5117,
+						"buffer_size": 5273,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1146,
-								1169
+								2822,
+								2822
 							]
 						],
 						"settings":
 						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Oceanic_Next.tmTheme",
 							"syntax": "Packages/CSS/CSS.sublime-syntax",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 546.0,
+						"translation.y": 2484.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
@@ -1259,6 +1281,7 @@
 						],
 						"settings":
 						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Oceanic_Next.tmTheme",
 							"syntax": "Packages/CSS/CSS.sublime-syntax"
 						},
 						"translation.x": 57.0,
