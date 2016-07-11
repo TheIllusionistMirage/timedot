@@ -104,7 +104,11 @@ $("#dn").change(function() {
 });
 
 $('#fullscreen-toggle').click(function () {
-     document.getElementById('about').style.opacity = 1;
+     
+     TweenMax.to($('#about'),1,{
+          opacity:1,
+          ease:Power1.easeOut
+     });
      $('#about-content').hide();
      if(document.getElementById('about').style.fontSize == '2.8rem'){
           TweenMax.to($('#react-container'),1,{
@@ -140,7 +144,6 @@ $('#fullscreen-toggle').click(function () {
           });
           TweenMax.to($('#about'),0.5,{
                rotationY:0,
-               left: '47%',
                top: '95%',
                fontSize: '2.5rem',
                ease:Power1.easeOut
@@ -438,7 +441,6 @@ $('#about-toggle').click(function(){
           TweenMax.to($('#about'),0.5,{
                rotationY:180,
                top: '1.75%',
-               left:'42%',
                fontSize: '2.8rem',
                ease:Power1.easeOut
           });
@@ -454,7 +456,6 @@ $('#about-toggle').click(function(){
           TweenMax.to($('#about'),0.5,{
                rotationY:180,
                top: '1.75%',
-               left:'42%',
                fontSize: '2.8rem',
                ease:Power1.easeOut
           });
@@ -463,7 +464,6 @@ $('#about-toggle').click(function(){
           TweenMax.to($('#about'),0.5,{
                rotationY:180,
                top: '1.75%',
-               left:'47%',
                fontSize: '2.8rem',
                ease:Power1.easeOut
           });
@@ -22692,16 +22692,17 @@ function getTime(lat,lng){
 			}
                finally{
                if(placename === undefined || state === undefined || country === undefined){
+                    var choice = Math.floor(Math.random()*3);
                     if(lng> 70 || lng<-70){
                         document.getElementById('small-town').innerHTML ='Closest Place: The blinding whiteness of the tundra'; 
 
                     }else{
-                         var choice = Math.floor(Math.random()*2);
+                         
                          if(choice==0){
                               document.getElementById('small-town').innerHTML ='Closest Place: Nowhere,Themiddleof'; 
                          }
                          if(choice==1){
-                              document.getElementById('small-town').innerHTML ='Closest Place: Nothingness'; 
+                              document.getElementById('small-town').innerHTML ='Closest Place:The Nothingness'; 
                          }
                          if(choice==2){
                               document.getElementById('small-town').innerHTML ='Closest Place: Desolation of the Soul'; 
@@ -22730,6 +22731,8 @@ $(window).resize(function(){
      TweenMax.set("#about",{clearProps:"all"});
      TweenMax.set("#about-content",{clearProps:"all"});
      TweenMax.set("#about-content",{clearProps:"all"});
+     TweenMax.set("#header",{clearProps:"all"});
+     TweenMax.set("#logo",{clearProps:"all"});
 });
 
 

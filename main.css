@@ -127,7 +127,10 @@ body{
 #about{
 	position: fixed;
 	top:95%;
-	left:48%;
+	left:50%;
+	width:200px;
+	height:50px;
+	margin-left: -100px;
 	white-space: nowrap;
 	opacity: 0;
 	text-decoration: underline;
@@ -135,16 +138,27 @@ body{
 }
 #about-toggle{
 	cursor: pointer;
-	
+	position: relative;
+	width:100px;
+	height:50px;
+	left:50%;
+	margin-left: -32.955px;
+
 }
 #about-content{
 	opacity: 0;
 }
 #developed{
-	position: relative;
+	position:fixed;
+	width:400px;
+	height:200px;
+	left:50%;
+	top:20%;
+	margin-left:-200px;
 	margin-top: -367px;
 	font-size: 1.8rem;
 	padding: 14px;
+	text-align: center;
 	
 }
 #ian{
@@ -263,8 +277,6 @@ body{
 		left:52%;
 	}
 	#about{
-		left:44.75%;
-		top:94%;
 
 	}
 	#toggle{
@@ -276,7 +288,6 @@ body{
 	#react-container{
 		height: 200px;
 	}
-	
 	#time{
 		display: inline;
 	    font-size: 5.5rem;
@@ -329,8 +340,6 @@ body{
 		left:48%;
 	}
 	#about{
-		left:43%;
-		top:93%;
 		font-size: 2rem;
 	}
 
@@ -365,8 +374,6 @@ body{
     	left:28.5%;
 	}
 	#about{
-		left:43%;
-		top:93%;
 		font-size: 2rem;
 	}
 	#twitter{
@@ -393,8 +400,7 @@ body{
 }
 @media screen and (width:435px){
 	#about{
-		left:44%;
-		top:94%;
+
 	}
 	#developed{
 		margin-top: -130px;
@@ -413,30 +419,25 @@ body{
 }
 @media screen and (width:1920px){
 	#about{
-		left:48.5%;
-		top:94%;
 	}
 
 }
 @media screen and (width:375px){
 	#about{
-		left:43%;
-		top:93%;
+
 		font-size: 2rem;
 	}
 }
 @media screen and (width:1440px){
 	#about{
-		left:48%;
-		top:93%;
+
 		font-size: 2.8rem;
 	}
 
 }
 @media screen and (width:1280px){
 	#about{
-		left:48%;
-		top:93%;
+
 		font-size: 2.8rem;
 	}
 
@@ -454,12 +455,12 @@ body{
 }
 @media screen and(max-width:768){
 	#about{
-		left: 43%;
+
 	}
 }
 @media screen and(min-width:768) and (max-width:804){
 	#about{
-		margin-top:14px;
+
 	}
 }
 
