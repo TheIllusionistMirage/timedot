@@ -152,7 +152,6 @@ $('#fullscreen-toggle').click(function () {
           {
                TweenMax.to($('#about'),0.5,{
                     rotationY:0,
-                    left: '43%',
                     top: '93%',
                     fontSize: '2rem',
                     ease:Power1.easeOut
@@ -161,7 +160,6 @@ $('#fullscreen-toggle').click(function () {
           if(width==414){
               TweenMax.to($('#about'),0.5,{
                     rotationY:0,
-                    left: '43%',
                     top: '93%',
                     fontSize: '2rem',
                     ease:Power1.easeOut
@@ -170,7 +168,6 @@ $('#fullscreen-toggle').click(function () {
           if(width<=435){
               TweenMax.to($('#about'),0.5,{
                     rotationY:0,
-                    left: '44%',
                     top: '93%',
                     fontSize: '2rem',
                     ease:Power1.easeOut
@@ -179,7 +176,6 @@ $('#fullscreen-toggle').click(function () {
           if(width==1920){
                TweenMax.to($('#about'),0.5,{
                     rotationY:0,
-                    left: '48.5%',
                     top: '94%',
                     fontSize: '2.5rem',
                     ease:Power1.easeOut

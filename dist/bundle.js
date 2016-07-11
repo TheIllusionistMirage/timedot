@@ -20547,7 +20547,7 @@
 						"Developed By: ",
 						React.createElement(
 							"a",
-							{ id: "ian", href: "https://twitter.com/i_ianc" },
+							{ id: "ian", target: "_blank", href: "https://twitter.com/i_ianc" },
 							"Ian Carrasco"
 						)
 					),
