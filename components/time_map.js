@@ -102,7 +102,6 @@ $("#dn").change(function() {
         timeRefresh();
 
 });
-
 $('#fullscreen-toggle').click(function () {
      
      TweenMax.to($('#about'),1,{
@@ -110,6 +109,7 @@ $('#fullscreen-toggle').click(function () {
           ease:Power1.easeOut
      });
      $('#about-content').hide();
+
      if(document.getElementById('about').style.fontSize == '2.8rem'){
           TweenMax.to($('#react-container'),1,{
                rotationY:0,
@@ -152,7 +152,7 @@ $('#fullscreen-toggle').click(function () {
           {
                TweenMax.to($('#about'),0.5,{
                     rotationY:0,
-                    top: '93%',
+                    top: '94%',
                     fontSize: '2rem',
                     ease:Power1.easeOut
                }); 
@@ -160,7 +160,7 @@ $('#fullscreen-toggle').click(function () {
           if(width==414){
               TweenMax.to($('#about'),0.5,{
                     rotationY:0,
-                    top: '93%',
+                    top: '94%',
                     fontSize: '2rem',
                     ease:Power1.easeOut
                }); 
@@ -168,7 +168,7 @@ $('#fullscreen-toggle').click(function () {
           if(width<=435){
               TweenMax.to($('#about'),0.5,{
                     rotationY:0,
-                    top: '93%',
+                    top: '94%',
                     fontSize: '2rem',
                     ease:Power1.easeOut
                }); 
@@ -216,7 +216,7 @@ function fullscreenMode(width){
      }
      if(width<768 && width>360){
           TweenMax.to($('#time'),0.5,{
-               fontSize:'8rem',
+               fontSize:'9rem',
                marginBottom:'-23px',
                marginTop:'175px',
                offset:0.5,
@@ -278,8 +278,13 @@ function fullscreenMode(width){
 
 
      if(document.getElementById('react-container').style.height == '100%'){
+
           console.log();
-          document.getElementById('about').style.opacity = 0;
+          TweenMax.to($('#about'),0.5,{
+               opacity:0,
+               offset:0.5,
+               ease:Power1.easeOut
+          });  
           width = $(window).width();
           if(width >= 768){
                TweenMax.to($('#react-container'),0.5,{
@@ -304,6 +309,10 @@ function fullscreenMode(width){
                     offset:0.5,
                     ease:Power1.easeOut
                }); 
+               TweenMax.to($('#about'),0.5,{
+                    opacity:'0',
+                    ease:Power1.easeOut
+               });
                TweenMax.to($('#small-town'),0.5,{
                     fontSize:'2rem',
                     marginTop:'-41px',
@@ -370,6 +379,44 @@ function fullscreenMode(width){
                     offset:0.5,
                     ease:Power1.easeOut
                }); 
+               TweenMax.to($('#about'),0.5,{
+                    opacity:'0',
+                    ease:Power1.easeOut
+               });
+          }else{
+               TweenMax.to($('#react-container'),0.5,{
+                    height:'211px',
+                    ease:Power1.easeOut
+               });
+               TweenMax.to($('#fullscreen-toggle'),0.5,{
+                    rotation:0,
+                    top:'186px',
+                    ease:Power1.easeOut
+               });
+               TweenMax.to($('#time'),0.5,{
+                    fontSize:'8.5rem',
+                    marginBottom:'-33px',
+                    marginTop:'0px',
+                    offset:0.5,
+                    ease:Power1.easeOut
+               });  
+               TweenMax.to($('#time-zone'),0.5,{
+                    fontSize:'2.1rem',
+                    offset:0.5,
+                    ease:Power1.easeOut
+               }); 
+               TweenMax.to($('#small-town'),0.5,{
+                    fontSize:'1.8rem',
+                    marginTop:'-39px',
+                    offset:0.5,
+                    ease:Power1.easeOut
+               });
+               TweenMax.to($('#about'),0.5,{
+                    opacity:'0',
+                    ease:Power1.easeOut
+               });
+
+
           }
      }
 }
@@ -402,7 +449,7 @@ $('#about-toggle').click(function(){
      });
      TweenMax.to($('#fullscreen-toggle'),0.5,{
           top: '4%',
-          left: '95%',
+          left: '97%',
           rotation:270,
           ease:Power1.easeOut
      });
@@ -420,7 +467,7 @@ $('#about-toggle').click(function(){
           });
           TweenMax.to($('#fullscreen-toggle'),0.5,{
                top: '4%',
-               left: '90%',
+               left: '94%',
                rotation:270,
                ease:Power1.easeOut
           });
@@ -442,8 +489,8 @@ $('#about-toggle').click(function(){
           });
           TweenMax.to($('#about-content'),0.5,{
                rotationY:180,
-               marginTop:'50%',
                left:'42%',
+               marginTop:'-50%',
                fontSize: '2.8rem',
                ease:Power1.easeOut
           });
@@ -463,12 +510,15 @@ $('#about-toggle').click(function(){
                fontSize: '2.8rem',
                ease:Power1.easeOut
           });
+          TweenMax.to($('#developed'),0.5,{
+               marginTop:'-43%',
+               ease:Power1.easeOut
+          });
      }
      if(width==768){
           TweenMax.to($('#about'),0.5,{
                rotationY:180,
                top: '1.75%',
-               left:'47.75%',
                fontSize: '2.8rem',
                ease:Power1.easeOut
           });
@@ -478,7 +528,6 @@ $('#about-toggle').click(function(){
           TweenMax.to($('#about'),0.5,{
                rotationY:180,
                top: '1.75%',
-               left:'47.75%',
                fontSize: '2.8rem',
                ease:Power1.easeOut
           });

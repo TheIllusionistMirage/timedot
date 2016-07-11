@@ -39,6 +39,7 @@ tr.introjs-showElement > th {
   position: absolute;
   z-index: 9999998;
   background:#252929;
+  border:1px solid #FFF;
   -webkit-transition: all 0.3s ease-out;
      -moz-transition: all 0.3s ease-out;
       -ms-transition: all 0.3s ease-out;
@@ -118,8 +119,11 @@ tr.introjs-showElement > th {
 }
 
 .introjs-tooltip {
-  position: absolute;
+  position: fixed;
   padding: 10px;
+  margin-left: -100px !important;
+  top:20% !important;
+  left:50% !important;
   background-color: #252929;
   min-width: 200px;
   padding-top:30px;

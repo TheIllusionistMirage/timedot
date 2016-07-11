@@ -46,7 +46,7 @@ body{
 #time{
 	display: inline;
     font-size: 8.5rem;
-    margin-bottom: -20px;
+    margin-bottom: -27px;
     color: #BEC2C2;
     margin-top: 0px;
 }
@@ -78,7 +78,7 @@ body{
     position: fixed;
 }
 #small-town{
-	font-size: 1.5rem;
+	font-size: 1.8rem;
     margin-top: -39px;
     padding:0px;
     opacity: 1;
@@ -114,6 +114,7 @@ body{
 	left: 25px;
 	transform: scale(1.8);
 	cursor: pointer;
+	z-index: 999999;
 }
 #fullscreen-toggle:active{
 	color:#C2524E;
@@ -126,7 +127,7 @@ body{
 }
 #about{
 	position: fixed;
-	top:95%;
+	top:94%;
 	left:50%;
 	width:200px;
 	height:50px;
@@ -155,7 +156,7 @@ body{
 	left:50%;
 	top:200px;
 	margin-left:-200px;
-	margin-top: -367px;
+	margin-top: -208px;
 	font-size: 1.8rem;
 	padding: 14px;
 	text-align: center;
@@ -246,14 +247,6 @@ body{
 
 }
 @media screen and (width:1024px){
-	#madeby{
-		top:91%;
-    	left:43.5%;
-	}
-	#twitter{
-		top:95%;
-		left:48%;
-	}
 
 }
 @media screen and (width:1024px) and (orientation:landscape){
@@ -372,10 +365,7 @@ body{
 
 }
 @media screen and (max-width:1920px) and (min-width: 769){
-	#about{
-		left:48%;
-		top:94%;
-	}
+
 
 }
 @media screen and (width:1920px){
@@ -421,6 +411,9 @@ body{
 	#about{
 
 	}
+}
+@media screen and(max-width:768){
+
 }
 
 
