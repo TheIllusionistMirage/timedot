@@ -24,10 +24,15 @@
 	<div class="container-fluid" id='map-container' style="height:100%;width:100%"></div>
 	<script src="./dist/bundle.js"></script>
 	<script type="text/javascript" src="./components/time_map.js"></script>
+	<script src = "https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.1.2/js.cookie.min.js"></script>
 	<script>
-		  $(window).ready(function() {
+		if(Cookies.get('intro')!=1){
+		  $(window).ready(function(){
 		    introJs().start();
+		    Cookies.set('intro','1');
+		    alert(Cookies.get('intro'));
 		  });
+		}
 	</script>
 
 
