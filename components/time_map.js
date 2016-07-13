@@ -26,7 +26,7 @@ function initMap() {
 			getTime(ip_lat,ip_lng);
 		}
 	});
-	console.log();
+	
 	
 	map = new google.maps.Map(document.getElementById('map-container'), {
 		zoom: 8,
@@ -51,7 +51,7 @@ function initMap() {
 		icon:image
 	});
 	var marker_latlng;
-		console.log(marker_latlng);
+		
 	function markerCoord(){
 		marker_lat = marker.getPosition().lat();
 		marker_lng = marker.getPosition().lng();
@@ -88,7 +88,6 @@ map.panTo(center);
 });
 $('#image-center').click(function(){
      var mapCenter = map.getCenter();
-     console.log(mapCenter);
      marker.setPosition(mapCenter);
      markerCoord();
 });
@@ -279,7 +278,7 @@ function fullscreenMode(width){
 
      if(document.getElementById('react-container').style.height == '100%'){
 
-          console.log();
+          
           TweenMax.to($('#about'),0.5,{
                opacity:0,
                offset:0.5,
@@ -22655,13 +22654,13 @@ subscribe to our email newsletter to hear about new eBooks.
 
 function getTime(lat,lng){
 	var username = usernames[Math.floor(Math.random() * (usernames.length))];
-	console.log(username);
+	
 	$.ajax({
 		url:'http://api.geonames.org/timezoneJSON?lat='+lat+'&lng='+lng+'&username='+username,
 		type:'GET',
 		responseType:'JSON',
 		success:function(data){
-			console.log(data);
+			
 			var date = data.time;
                TweenMax.to($('#dot-in-water'),0.5,{
                     opacity:0,
@@ -22686,9 +22685,6 @@ function getTime(lat,lng){
 			var monthdate = date.substr(5,6);
 			var month = monthdate.substr(0,2);
 			var day = monthdate.substr(monthdate.indexOf('-')+1);
-			console.log(year);
-			console.log(month);
-			console.log(day);
 			var meridian = '';
 			hours = Number(time.substr(0,2));
 			minutes = time.substr(3,4);
@@ -22729,7 +22725,7 @@ function getTime(lat,lng){
 		type:'GET',
 		responseType:'JSON',
 		success:function (data) {
-			console.log(data);
+			
 			try{
 				var placename = data.geonames[0].name;
 				var state = data.geonames[0].adminName1;
@@ -22765,7 +22761,6 @@ function getTime(lat,lng){
 	})
 }
 
-console.log(window.innerWidth);
 $(window).resize(function(){
 	TweenMax.set("#react-container", {clearProps:"all"});
 	TweenMax.set("#fullscreen-toggle",{clearProps:"all"});
