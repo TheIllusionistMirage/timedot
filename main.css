@@ -26,6 +26,9 @@ body{
 	background-color: #252929 !important;
 	font-family: 'Mohave' !important;
 }
+.container-fluid{
+	padding-left:0px !important;
+}
 #info{
 	overflow: hidden;
 	opacity: 1;
