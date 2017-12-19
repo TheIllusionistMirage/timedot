@@ -4,7 +4,7 @@
 
 A simple time zone utility, which could also be used as a way to discover new places.
 
-[timedot.space](http://timedot.space)
+## [timedot.space](http://timedot.space)
 
 ## Main Display
 
